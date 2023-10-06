@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+	
+}
+
+/*medicina estetica */
+h1{
+ color: white;
+ font-size: 48px;
+ font-family: Lato;
+ font-weight: 700;
+ word-wrap: break-word
+}
+
+/*            */
+h2(está en svg)
+
+/* tratamientos */
+h3{
+ color: white;
+ font-size: 26px;
+ font-family: Bitter;
+ font-weight: 500;
+ word-wrap: break-word
+}
+
+/* nosotras */
+h4{
+ color: #1C8087;
+ font-size: 33px;
+ font-family: Bitter;
+ font-weight: 700;
+ word-wrap: break-word
+}
+
+/* crecimiento personal y experiencia */
+
+h5{
+ color: #1C8087;
+ font-size: 18px;
+ font-family: Bitter;
+ font-weight: 400;
+ word-wrap: break-word
+}
+
+/* adriana serra*/
+
+h6{
+ color: white;
+ font-size: 20px;
+ font-family: Bitter;
+ font-weight: 700;
+ word-wrap: break-word
+}
+
+
+p {
+width: 688px;
+color: #1C8087;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 183.5%; /* 36.7px */
+font-variant: all-small-caps;
+}
+
+
+.boton a nav{
+color: #FFF;
+font-family: Lato;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/* boton a nav hover*/
+.boton a nav {
+color: #FFF;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+svg index{
+filter: drop-shadow(0px 13px 15px rgba(0, 0, 0, 0.10));
+}
+
+
+/*** HEADER ****/
+
+header{
+display: flex;
+padding: 0px 20px;
+align-items: center;
+gap: 34px;
+background: var(--Paleta-primaria, #1C8087);
+}
+
+header div{
+display: flex;
+max-width: 1500px;
+align-items: center;
+gap: 756px;
+position: absolute;
+left: 210px;
+top: 21px;
+}
+
+svg{
+width: 119px;
+height: 74px;
+}
+/* probarlo en html */
+<svg xmlns="http://www.w3.org/2000/svg" width="119" height="74" viewBox="0 0 119 74" fill="none"> </svg>
+
+nav{
+display: flex;
+align-items: center;
+gap: 56px;
+align-self: stretch;
+}
+
+
+a boton header{
+display: flex;
+padding: 0px 4px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+a boton header HOVER{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+
+/*** INDEX ***/
+
+section{
+display: flex;
+width: 1920px;
+height: 804px;
+padding: 100px 144px 0px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+}
+
+div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 37px;
+}
+
+svg{
+width: 292.228px;
+height: 179.125px;
+}
+
+txt{
+width: 470.981px;
+height: 106.7px;
+}
+
+/* HTML 
+
+<section>
+<div>
+	<svg></svg>
+	<div>
+	<h1></h1>
+	<h2></h2>
+</div>
+<input></input>	
+</div>
+</section>
+
+<section>
+scroll reseñas???
+</section>
+
+<section>
+<div>
+<div>
+	<h5></h5>
+	<h4></h4>
+</div>
+<article>
+<div>
+		<img></img>
+		<div>
+			<h5></h5>
+	<h4></h4>
+</div>
+<li></li>
+</article>	
+<article>
+<div>
+		<img></img>
+		<div>
+			<h5></h5>
+	<h4></h4>
+</div>
+<li></li>
+</article>	
+</div>
+</section>
+
+<section>
+<div>CARD???</divs>
+<div></divs>
+<div></divs>
+</section>
+
+**/
+
+/* quienes somos*/
+
+
+/* footer */
+footer {
+background-color: #1C8087;
+display: flex;
+padding: 54px 91px 42px 91px;
+align-items: flex-end;
+gap: 725px;
+position: absolute;
+bottom: 0px;
+}
+
+p footer {
+color: #ffffff;
+font-family: Lato;
+font-size: 14.5px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+div footer {
+display: flex;
+width: 1722px;
+padding: 0px 77px;
+justify-content: space-between;
+align-items: flex-end;
+flex-shrink: 0;
+align-self: stretch;
+}
+
+.nav iconos {
+display: flex;
+width: 341px;
+align-items: center;
+gap: 67px;
+flex-shrink: 0;
+align-self: stretch;
+}
+
+a footer{
+color: #ffffff;
+display: flex;
+width: 35px;
+height: 35px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
