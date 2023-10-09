@@ -38,7 +38,7 @@ h3{
 
 /* nosotras */
 h4{
-	color: #1C8087;
+	color: #DC8A84;
 	font-size: 33px;
 	font-family: Bitter;
 	font-weight: 700;
@@ -48,7 +48,7 @@ h4{
 /* crecimiento personal y experiencia */
 
 h5{
-	color: #1C8087;
+	color: #DC8A84;
 	font-size: 18px;
 	font-family: Bitter;
 	font-weight: 400;
@@ -78,121 +78,180 @@ p {
 }
 
 
-.boton a nav{
-	color: #FFF;
-	font-family: Lato;
-	font-size: 21px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	}
-
-
-/* boton a nav hover*/
-.boton a nav {
-	color: #FFF;
-	font-family: Lato;
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-}
-
-
-svg index{
-filter: drop-shadow(0px 13px 15px rgba(0, 0, 0, 0.10));
-}
-
 
 /*** HEADER ****/
 
 header{
-	display: inline-flex;
+	display:flex;
+	flex-direction: row;
 	padding: 0px 20px;
-	align-items: center;
 	gap: 34px;
 	background-color:#1C8087;
 }
 
 header div{
 	display: flex;
-	max-width: 1500px;
-	align-items: center;
-	gap: 756px;
-	position: absolute;
-	left: 210px;
-	top: 21px;
+	flex-direction: row;
+	max-width: 1920px;
+	gap: 720px;
+	background-color:#1C8087;
+}
+
+button {
+	background-color:#1C8087;
 }
 
 svg{
 	width: 119px;
 	height: 74px;
 }
+
 /* probarlo en html */
 /* lo pasé a html 08/10*/
 
 .nav-botonera{
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	gap: 56px;
+	align-self: stretch;
+}
+
+.botonera {
+	display: flex;
+	justify-content: center;
+	list-style: none;
 }
 
 .botonera a {
 	display: flex;
-	padding: 0px 4px;
 	justify-content: center;
-	align-items: center;
 	gap: 10px;
-	list-style: none;
+	text-decoration:none;
+	font-family: Lato;
+	font-size: 21px;
+	padding: 10px 20px 10px 20px;
+	color: #FFF;
+	transition: 0.5s;
+	object-fit: cover;
 }
 
-.a boton header{
-	display: flex;
-	padding: 0px 4px;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;
-}
 
-a boton header HOVER{
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;
+.botonera a:hover{
+	transform: scale(1.2);
 }
 
 
 /*** INDEX ***/
 
-section{
+.bienvenida{
 	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 	width: 1920px;
 	height: 804px;
-	padding: 100px 144px 0px 0px;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-end;
+	padding: 100px 144px 500px 0px;
+	background: url("img/portada-index.jpg"), lightgray -43.638px -421.334px / 104.044% 165.774% no-repeat;
+
+}
+
+.tratamientos-boton {
+	display: flex;
+	width: 278px;
+	height: 66px;
+	align-items: center;
+	flex-shrink: 0;
+	border-radius: 36px;
+	border: 2px solid #FFF;
+	background: #DC8A84;
+
+}
+
+.tratamientos-boton h3 {
+	color: #FFF;
+	font-family: Bitter;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
 }
 
 div{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 37px;
+	margin: 80px 40px 40px 40px;
+	gap: 25px;
 }
 
-svg{
+img {
 	width: 292.228px;
 	height: 179.125px;
+	filter: drop-shadow(0px 13px 15px rgba(0, 0, 0, 0.10));
 }
 
-txt{
+h1 {
 	width: 470.981px;
-	height: 106.7px;
+	color: #FFF;
+	text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.10);
+	font-family: Lato;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
 }
 
+h2 {
+	width: 337.916px;
+	height: 38.7px;
+	flex-shrink: 0;
+	filter: drop-shadow(2px 8px 4px rgba(0, 0, 0, 0.10));
+	font-family: Lato;
+	color: #FFF;
+}
+
+
+.nosotras {
+	display: flex;
+	padding: 71px 90px 71px 90px;
+	flex-direction: column;
+	align-items: center;
+	gap: 46px;
+	align-self: stretch;
+	background-color: #FFF6F1;
+	background: url("img/isorosa.svg"), lightgray 5202423269426839000px -6357820700931001000px / -345860893552552800% -923088283391648000% no-repeat, #FFF6F1;
+}
+
+.titulo {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	gap: 10px;
+}
+
+
+.doctoras {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.doctoras img {
+	width: 473px;
+	height: 473px;
+	border-radius: 100%;
+}
+
+
+.doctoras ul li {
+	color: #1C8087;
+	font-family: Lato;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 34.2px;
+	max-width: 60%;
+	font-variant: all-small-caps;
+	
+}
 /* HTML 
 
 <section>
@@ -255,7 +314,6 @@ footer {
 	padding: 20px 91px 42px 91px;
 	align-items: flex-end;
 	gap: 366px;
-	position: absolute;
 	bottom: 0px;
 }
 
@@ -280,7 +338,6 @@ div footer {
 
 .ul contactofooter {
 	display: flex;
-	justify-content: flex-end;
 	flex-direction: row;
 	width: 341px;
 	align-items: center;
@@ -293,6 +350,8 @@ div footer {
 	display: flex;
 	flex-direction: row;
 	list-style-type: none;
+	width: 40px;
+	height: 40px;
 }
 
 a footer{
