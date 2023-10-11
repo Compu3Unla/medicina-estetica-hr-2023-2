@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Contacto</title>
+	<link href="estilos.css" rel="stylesheet" type="text/css">	
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
+	<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<button>
+			<svg><img src="img/isoblanco.svg" width="119px" height="74px" alt="fb"/></svg>
+		</button>
+		<nav class="nav-botonera">
+			<ul class="botonera">
+				<li><a href="#tratamientos" target="_self">Tratamientos</a></li>
+				<li><a href="#quienessomos" target="_self">Quienes somos</a></li>
+				<li><a href="#contacto" target="_self">Contacto</a></li>
+				<li><a href="#sucursal" target="_self">Sucursal</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="enviesuconsulta">
+			<h4>Envíe su consulta</h4>
+			<p>Nos gustaría darte una atención más personalizada. Rellena este formulario para recibir recibir información de los tratamientos que más te interesen.</p>
+		</div>
+		<section>
+			<form method="post" action="mailto:lucialezcano2001@gmail.com" subject="'Email enviado desde el formulario'" target="_blank" enctype="text/plain">
+				<div>
+					<div class="nombre-apellido">
+						<label for="Nombre">* Nombre:</label>
+						<input type="text" name="Nombre" id="nombre" maxlength="30" placeholder="Nombre" required>
+
+						<label for="Apellido">* Apellido:</label>
+						<input type="text" name="Apellido" id="apellido" maxlength="30" placeholder="Apellido" required>
+					</div>
+
+					<label for="Email">* Email:</label>
+					<input type="email" name="Email" id="email" required>
+
+					<label for="Telefono">Teléfono:</label>
+					<input type="tel" name="Telefono" id="telefono" placeholder="(cód. área) (000) 0000000">
+
+					<label for="Asunto">Asunto</label>
+					<textarea name="Asunto" id="asunto">Escriba su consulta</textarea>
+					<label for="Mensaje">Mensaje</label>
+					<textarea name="Mensaje" id="mensaje">Escriba su consulta</textarea>
+				</div>
+				<div>
+					<input type="submit" value="Enviar" class="Enviar">
+					<p>* No compartiremos tus datos personales con terceros. 
+					Para mas información consulta las políticas de privacidad.</p>
+				</div>
+			</form>
+		</section>
+		<aside class="aside-contacto">
+			<h4>Información de contacto</h4>
+			<ul class="lista-contacto">
+				<li>
+					<svg></svg>
+					<div>
+						<h4>Teléfono</h4>
+						<h4>4658 - 2039</h4>
+					</div>
+				</li>
+				<li>
+					<svg></svg>
+					<div>
+						<h4>Celular</h4>
+						<h4>11- 6739 - 77427</h4>
+					</div>
+				</li>
+				<li>
+					<svg></svg>
+					<div>
+						<h4>Email</h4>
+						<h4>info@medicinaesteticacehr.com</h4>
+					</div>
+				</li>
+			</ul>
+		</aside>
+	</main>
+	<footer>
+		<div>
+			<p>Lavalle 26, B1704 Ramos Mejía, Provincia de Buenos Aires.</p>
+			<p>Copyright © 2015-2023 Medicina Estética S.R.L.</p>
+		</div>
+		<ul class="contactofooter">
+			<li><img src="img/icono-mail.svg" width="40px" height="40px" alt="mail"/></li>
+			<li><img src="img/icono-ig.svg" width="40px" height="40px" alt="ig"/></li>
+			<li><img src="img/icono-fb.svg" width="40px" height="40px" alt="fb"/></li>
+			<li><img src="img/icono-whatsapp.svg" width="40px" height="40px" alt="wsp"/></li>
+		</ul>
+	</footer>
+</body>
+</html>
