@@ -326,6 +326,7 @@ footer {
 	gap: 366px;
 	bottom: 0px;
 	width: 100%;
+	/* guarda acá que el footer les está quedando muy grande porque está tomando el 100%+paddings y el gap, hay una propiedad que ayuda a que el tamaño de la caja tenga en cuenta los bordes, en el header está pasando lo mismo pero se nota menos  ;)*/
 }
 
 footer p {
