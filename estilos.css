@@ -86,7 +86,7 @@ header{
 	flex-direction: row;
 	padding: 0px 20px;
 	gap: 720px;
-	width: 100%;
+	width: 1920px;
 	background-color:#1C8087;
 }
 
@@ -106,6 +106,7 @@ svg{
 .nav-botonera{
 	display: flex;
 	align-items: center;
+	width: auto;
 	gap: 56px;
 	align-self: stretch;
 }
@@ -119,11 +120,10 @@ svg{
 .botonera a {
 	display: flex;
 	justify-content: center;
-	gap: 10px;
 	text-decoration:none;
 	font-family: Lato;
-	font-size: 21px;
-	padding: 10px 20px 10px 20px;
+	font-size: 20px;
+	padding: 10px 25px 10px 50px;
 	color: #FFF;
 	transition: 0.5s;
 	object-fit: cover;
@@ -178,9 +178,8 @@ div{
 }
 
 img {
-	width: 292.228px;
-	height: 179.125px;
-	filter: drop-shadow(0px 13px 15px rgba(0, 0, 0, 0.10));
+	width: 40%;
+	height: 40%;
 }
 
 h1 {
