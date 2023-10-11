@@ -23,65 +23,68 @@
 		</nav>
 	</header>
 	<main>
-		<div class="enviesuconsulta">
-			<h4>Envíe su consulta</h4>
-			<p>Nos gustaría darte una atención más personalizada. Rellena este formulario para recibir recibir información de los tratamientos que más te interesen.</p>
-		</div>
-		<section>
-			<form method="post" action="mailto:lucialezcano2001@gmail.com" subject="'Email enviado desde el formulario'" target="_blank" enctype="text/plain">
-				<div>
-					<div class="nombre-apellido">
-						<label for="Nombre">* Nombre:</label>
-						<input type="text" name="Nombre" id="nombre" maxlength="30" placeholder="Nombre" required>
+		<section class="contenedores-contacto">
+			<div class="caja1-contacto">
+			<div class="enviesuconsulta">
+				<h4>Envíe su consulta</h4>
+				<p>Nos gustaría darte una atención más personalizada. Rellena este formulario para recibir recibir información de los tratamientos que más te interesen.</p>
+			</div>
+			<article>
+				<form method="post" action="mailto:lucialezcano2001@gmail.com" subject="'Email enviado desde el formulario'" target="_blank" enctype="text/plain">
+					<div>
+						<div class="nombre-apellido">
+							<label for="Nombre">* Nombre:</label>
+							<input type="text" name="Nombre" id="nombre" maxlength="30" placeholder="Nombre" required>
 
-						<label for="Apellido">* Apellido:</label>
-						<input type="text" name="Apellido" id="apellido" maxlength="30" placeholder="Apellido" required>
+							<label for="Apellido">* Apellido:</label>
+							<input type="text" name="Apellido" id="apellido" maxlength="30" placeholder="Apellido" required>
+						</div>
+
+						<label for="Email">* Email:</label>
+						<input type="email" name="Email" id="email" required>
+
+						<label for="Telefono">Teléfono:</label>
+						<input type="tel" name="Telefono" id="telefono" placeholder="(cód. área) (000) 0000000">
+
+						<label for="Asunto">Asunto</label>
+						<textarea name="Asunto" id="asunto">Escriba su consulta</textarea>
+						<label for="Mensaje">Mensaje</label>
+						<textarea name="Mensaje" id="mensaje">Escriba su consulta</textarea>
+
+						<input type="submit" value="Enviar" class="Enviar">
+						<p>* No compartiremos tus datos personales con terceros. 
+						Para mas información consulta las políticas de privacidad.</p>
 					</div>
-
-					<label for="Email">* Email:</label>
-					<input type="email" name="Email" id="email" required>
-
-					<label for="Telefono">Teléfono:</label>
-					<input type="tel" name="Telefono" id="telefono" placeholder="(cód. área) (000) 0000000">
-
-					<label for="Asunto">Asunto</label>
-					<textarea name="Asunto" id="asunto">Escriba su consulta</textarea>
-					<label for="Mensaje">Mensaje</label>
-					<textarea name="Mensaje" id="mensaje">Escriba su consulta</textarea>
-				</div>
-				<div>
-					<input type="submit" value="Enviar" class="Enviar">
-					<p>* No compartiremos tus datos personales con terceros. 
-					Para mas información consulta las políticas de privacidad.</p>
-				</div>
-			</form>
-		</section>
+				</form>
+			</article>
+			</div>
 		<aside class="aside-contacto">
 			<h4>Información de contacto</h4>
 			<ul class="lista-contacto">
 				<li>
 					<svg></svg>
-					<div>
+					<div class="telefono">
 						<h4>Teléfono</h4>
 						<h4>4658 - 2039</h4>
 					</div>
 				</li>
 				<li>
 					<svg></svg>
-					<div>
+					<div class="celular">
 						<h4>Celular</h4>
 						<h4>11- 6739 - 77427</h4>
 					</div>
 				</li>
 				<li>
 					<svg></svg>
-					<div>
+					<div class="email">
 						<h4>Email</h4>
 						<h4>info@medicinaesteticacehr.com</h4>
 					</div>
 				</li>
 			</ul>
 		</aside>
+		</section>
 	</main>
 	<footer>
 		<div>
