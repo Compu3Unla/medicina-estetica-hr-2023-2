@@ -10,7 +10,7 @@
 
 body {
 	display: flex;
-	width: 100%;
+	width: 100;
 	flex-direction: column;
 	align-items: flex-start;
 }
@@ -24,10 +24,16 @@ h1{
 	word-wrap: break-word;
 }
 
+<<<<<<< HEAD
 
 /* h2(está en svg    */
 
 
+=======
+<<<<<<< HEAD
+/* h2(está en svg    */
+
+>>>>>>> origin/dai
 
 /* tratamientos */
 h3{
@@ -82,21 +88,24 @@ p {
 
 /*** HEADER ****/
 
-header{
+header {
 	display:flex;
 	flex-direction: row;
-	padding: 0px 20px;
-	gap: 720px;
 	width: 1920px;
+	height: 120px;
+	padding: 0px 151px;
+	gap: 780px;
 	background-color:#1C8087;
+	box-sizing: content-box;
 }
 
 
 button {
 	background-color:#1C8087;
+	border-color: transparent;
 }
 
-svg{
+.isoheader{
 	width: 119px;
 	height: 74px;
 }
@@ -639,7 +648,10 @@ div .facial .back {
 	
 	
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dai
 /* footer */
 
 nav ul{
@@ -659,7 +671,7 @@ footer {
 	gap: 30%;
 	bottom: 0px;
 	width: 100%;
-	/* guarda acá que el footer les está quedando muy grande porque está tomando el 100%+paddings y el gap, hay una propiedad que ayuda a que el tamaño de la caja tenga en cuenta los bordes, en el header está pasando lo mismo pero se nota menos  ;)*/
+	box-sizing: content-box;
 }
 
 footer p {
@@ -681,23 +693,16 @@ div footer {
 	align-self: stretch;
 }
 
-.ul contactofooter {
-	display: flex;
-	flex-direction: row;
-	width: 341px;
-	align-items: center;
-	gap: 67px;
-	flex-shrink: 0;
-}
-
-
-
-.img contactofooter {
-	display: flex;
-	flex-direction: row;
-	list-style-type: none;
+.contactofooter img {
 	width: 40px;
 	height: 40px;
+}
+
+.contactofooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	gap: 50%;
 }
 
 a footer{
