@@ -180,7 +180,9 @@ button {
 	line-height: normal;
 }
 
-div{
+
+/*ESTO TOMA TODOS LOS DIV OJO!!!!!!<*/
+div----{
 	display: flex;
 	flex-direction: column;
 	margin: 80px 40px 40px 40px;
@@ -369,11 +371,25 @@ h2 {
 
 /* FORMULARIO DE CONTACTO */
 
-.contenedores-contacto {
+#main-contacto {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
 	margin: 0px 0 10px 0;
+}
+
+.contenedores-contacto {
+	display: flex;
+	padding-top: 5%;
+	padding-left: 112px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 30px;;
+}
+
+.formulario {
+	padding-top: 7%;
+	gap: 10%;
 }
 
 article {
@@ -409,7 +425,6 @@ form {
 form div {
 	width: 100%;
 	height: auto;
-	padding: 10px;
 	gap: 10px;
 }
 
@@ -490,12 +505,11 @@ textarea {
 	display: flex;
 	width: 472px;
 	height: 1098px;
-	padding-top: 70px;
-	margin-top: 20%;
+	margin-top: 15%;
 	margin-left: 10px;
+	padding-right: 20px;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 5px;
 	flex-shrink: 0;
 }
 
