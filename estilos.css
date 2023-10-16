@@ -46,7 +46,7 @@ h3{
 
 /* nosotras */
 h4{
-	color: #DC8A84;
+	color: #1C8087;
 	font-size: 33px;
 	font-family: Bitter;
 	font-weight: 700;
@@ -56,7 +56,7 @@ h4{
 /* crecimiento personal y experiencia */
 
 h5{
-	color: #DC8A84;
+	color: #1C8087;
 	font-size: 18px;
 	font-family: Bitter;
 	font-weight: 400;
@@ -271,6 +271,19 @@ h2 {
 	flex-shrink: 0;
 }
 
+
+.doctoras-quienessomos h5 {
+	color: #1C8087;
+}
+
+.doctora1-quienessomos h4, h5 {
+	color: #DC8A84;
+}
+
+.doctora2-quienessomos h4, h5 {
+	color: #DC8A84;
+}
+
 .doctora1-quienessomos {
 	display: flex;
 	width: 575px;
@@ -341,6 +354,10 @@ h2 {
 	gap: 18px;
 }
 
+.article2-quienessomos h5 {
+	color: #1C8087;
+}
+
 .article2-quienessomos button {
 	display: flex;
 	width: 278px;
@@ -377,6 +394,7 @@ h2 {
 	flex-direction: row;
 	width: 100%;
 	margin: 0px 0 10px 0;
+	gap: 10%;
 }
 
 .contenedores-contacto {
@@ -385,13 +403,14 @@ h2 {
 	padding-left: 112px;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 30px;;
+	gap: 20px;
 }
 
 .formulario {
 	padding-top: 7%;
-	gap: 10%;
+	gap: 80%;
 }
+
 
 article {
 	display: flex;
@@ -427,6 +446,9 @@ form div {
 	width: 100%;
 	height: auto;
 	gap: 10px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 form div p {
@@ -435,8 +457,12 @@ form div p {
 	font-size: 14.5px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 21px; /* 144.828% */
-	width: 55%
+	line-height: 21px;
+	width: 58%
+}
+
+form label {
+	padding-top: 20px;
 }
 
 label {
@@ -512,6 +538,7 @@ textarea {
 	flex-direction: column;
 	align-items: flex-start;
 	flex-shrink: 0;
+	gap: 10px;
 }
 
 .aside-contacto h4 {
@@ -529,12 +556,13 @@ textarea {
 	display: flex;
 	width: 100%;
 	height: 100%;
-	margin: 5px 10px 5px 10px;
+	margin: 5px 10px 5px 0px;
 	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-	gap: 5px;
+	align-items: flex-end;
+	gap: 20%;
 	flex-shrink: 0;
+	padding-top: 10px;
+	border-radius: 30px;
 }
 
 .lista-contacto h4{
@@ -567,13 +595,6 @@ textarea {
 	width: 70%;
 }
 
-.sucursal h4 {
-	color: #1C8087;
-	font-family: Bitter;
-	font-size: 33px;
-	font-style: normal;
-	font-weight: 700;
-}
 
 .reservarturno-boton {
 	display: flex;
