@@ -93,7 +93,6 @@ header {
 	flex-direction: row;
 	width: 1920px;
 	height: 120px;
-	padding: 0px 151px;
 	gap: 780px;
 	background-color:#1C8087;
 	box-sizing: content-box;
@@ -149,13 +148,15 @@ button {
 
 .bienvenida{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: flex-end;
+	align-items: flex-end;
 	width: 100%;
 	height: 804px;
 	padding: 100px 144px 500px 0px;
 	background: url("img/portada-index.jpg"), lightgray -43.638px -421.334px / 104.044% 165.774% no-repeat;
 	background-size: cover;
+	gap: 20px;
 
 }
 
@@ -260,6 +261,55 @@ h2 {
 	
 }
 
+/*TRATAMIENTOS*/
+
+.tratamientos-html {
+	display: flex;
+	width: 1919px;
+	height: 167px;
+	padding: 0px 110px;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	gap: 17px;
+	flex-shrink: 0;
+}
+
+.tratamientos-html h5{
+	color: #1C8087;
+}
+
+.medicina-estetica {
+	display: flex;
+	width: 1919px;
+	padding: 68px 107px 86px 110px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 13px;
+}
+
+.medicina-estetica h5 {
+	color: #1C8087;
+}
+
+.medicina-estetica button {
+	display: flex;
+	width: 239px;
+	height: 63px;
+	justify-content: space-between;
+	align-items: center;
+	flex-shrink: 0;
+	border-radius: 36px;
+	border: 2px solid #FFF;
+	background: #DC8A84;
+	color: #FFF;
+	font-family: Bitter;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
 
 /*QUIENES SOMOS*/
 
@@ -376,8 +426,8 @@ h2 {
 
 .por-que-elegirnos {
 	display: flex;
-	width: 1920px;
-	height: 418px;
+	width: 90%;
+	height: 70%;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
@@ -433,16 +483,16 @@ article {
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
+	padding-bottom: 1px;
 }
 
 form {
 	width: 90%;
-	height: 90;
 	display: flex;
 	flex-direction: row;
 }
 
-form div {
+.nombre-apellido {
 	width: 100%;
 	height: auto;
 	gap: 10px;
@@ -458,7 +508,8 @@ form div p {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 21px;
-	width: 58%
+	width: 58%;
+	padding-top: 20px;
 }
 
 form label {
@@ -467,14 +518,12 @@ form label {
 
 label {
 	display: block;
-	width: 121px;
-	height: 29px;
 	color: #DC8A84;
 	font-family: Bitter;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: normal;
+	margin-bottom: 10px;
 }
 
 input {
@@ -508,11 +557,10 @@ input[type=submit], input[type=reset] {
 	font-style: normal;
 	font-weight: 500;
 	border-color: #DC8A84;
+	margin-top: 40px;
 }
 
-.enviar {
-	background-color:beige;
-}
+
 
 textarea {
 	border-color:#DC8A84;
@@ -526,6 +574,7 @@ textarea {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	gap: 40px;
 }
 
 .aside-contacto {
@@ -617,13 +666,31 @@ textarea {
 	align-items: center;
 }
 
-.aside-imagenes {
+
+.texto-sucursal {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.imagenes {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	align-items: stretch;
 	width: 80%;
 	height: 80%;
+	margin-top: 90px;
 }
+
+.imagenes2 {
+	display: flex;
+	flex-direction:column;
+	gap: 20px;
+	width: 80%;
+	padding-left: 30px;
+	margin-right: 10px;
+}
+
 
 .mapa-seccion {
 	display: flex;
@@ -644,13 +711,10 @@ textarea {
 	font-weight: 700;
 }
 
-#mapa iframe {
-	width: 400%;
-	height: 700%;
-	flex-shrink: 0;
+.mapa {
+	width: 100%;
+	margin-bottom: 90px;
 }
-
-
 
 
 /* cards */
@@ -711,13 +775,14 @@ div .facial .back {
 /* footer */
 
 nav ul{
-	list-style: none;
-}
-
-nav ul{
 	display:flex;
 	flex-direction: row;
-	justify-content:space-around}
+	justify-content:space-around
+}
+
+nav ul li {
+	list-style: none;
+}
 
 footer {
 	background-color: #1C8087;
