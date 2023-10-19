@@ -772,12 +772,13 @@ div .facial .back {
 
 =======
 >>>>>>> origin/dai
-/* footer */
+/* FOOTER */
 
 nav ul{
 	display:flex;
 	flex-direction: row;
-	justify-content:space-around
+	justify-content:space-around;
+	list-style: none;
 }
 
 nav ul li {
@@ -825,6 +826,7 @@ div footer {
 	justify-content: end;
 	gap: 50%;
 }
+
 
 a footer{
 	color: #ffffff;
