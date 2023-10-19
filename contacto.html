@@ -16,40 +16,43 @@
 		<nav class="nav-botonera">
 			<ul class="botonera">
 				<li><a href="#tratamientos" target="_self">Tratamientos</a></li>
-				<li><a href="#quienessomos" target="_self">Quienes somos</a></li>
-				<li><a href="#contacto" target="_self">Contacto</a></li>
-				<li><a href="#sucursal" target="_self">Sucursal</a></li>
+				<li><a href="quienessomos.html" target="_self">Quienes somos</a></li>
+				<li><a href="contacto.html" target="_self">Contacto</a></li>
+				<li><a href="sucursal.html" target="_self">Sucursal</a></li>
 			</ul>
 		</nav>
 	</header>
-	<main>
+	<main id="main-contacto">
 		<section class="contenedores-contacto">
-			<div class="caja1-contacto">
 			<div class="enviesuconsulta">
 				<h4>Envíe su consulta</h4>
 				<p>Nos gustaría darte una atención más personalizada. Rellena este formulario para recibir recibir información de los tratamientos que más te interesen.</p>
 			</div>
-			<article>
+			<article class="formulario">
 				<form method="post" action="mailto:lucialezcano2001@gmail.com" subject="'Email enviado desde el formulario'" target="_blank" enctype="text/plain">
 					<div>
 						<div class="nombre-apellido">
-							<label for="Nombre">* Nombre:</label>
-							<input type="text" name="Nombre" id="nombre" maxlength="30" placeholder="Nombre" required>
-
-							<label for="Apellido">* Apellido:</label>
-							<input type="text" name="Apellido" id="apellido" maxlength="30" placeholder="Apellido" required>
+							<div class="nombre">
+								<label for="Nombre">* Nombre:</label>
+								<input type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre" required>
+							</div>
+							
+							<div class="apellido">
+								<label for="Apellido">* Apellido:</label>
+								<input type="text" name="Apellido" id="Apellido" maxlength="30" placeholder="Apellido" required>
+							</div>
 						</div>
 
 						<label for="Email">* Email:</label>
-						<input type="email" name="Email" id="email" required>
+						<input type="email" name="Email" id="Email" required>
 
 						<label for="Telefono">Teléfono:</label>
-						<input type="tel" name="Telefono" id="telefono" placeholder="(cód. área) (000) 0000000">
+						<input type="tel" name="Telefono" id="Telefono" placeholder="(cód. área) (000) 0000000">
 
 						<label for="Asunto">Asunto</label>
-						<textarea name="Asunto" id="asunto">Escriba su consulta</textarea>
+						<textarea name="Asunto" id="Asunto">Escriba su consulta</textarea>
 						<label for="Mensaje">Mensaje</label>
-						<textarea name="Mensaje" id="mensaje">Escriba su consulta</textarea>
+						<textarea name="Mensaje" id="Mensaje">Escriba su consulta</textarea>
 
 						<input type="submit" value="Enviar" class="Enviar">
 						<p>* No compartiremos tus datos personales con terceros. 
@@ -57,7 +60,7 @@
 					</div>
 				</form>
 			</article>
-			</div>
+			</section>
 		<aside class="aside-contacto">
 			<h4>Información de contacto</h4>
 			<ul class="lista-contacto">
@@ -84,7 +87,6 @@
 				</li>
 			</ul>
 		</aside>
-		</section>
 	</main>
 	<footer>
 		<div>
