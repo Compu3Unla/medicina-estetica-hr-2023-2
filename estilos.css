@@ -226,6 +226,7 @@ h2 {
 	align-self: stretch;
 	background-color: #FFF6F1;
 	background: url("img/isorosa.svg"), lightgray 5202423269426839000px -6357820700931001000px / -345860893552552800% -923088283391648000% no-repeat, #FFF6F1;
+	
 }
 
 .titulo {
@@ -717,63 +718,204 @@ textarea {
 }
 
 
-/* cards */
+/* CARDS */
 
 
-div .facial  {
-	display:flex;
-	justify-content: flex-end;
-	width: 100%;;
-	height: 100;
+#cards{
+	display: flex;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 20px;
+	background:rgba(229,127,120,1.00);
+	align-items: center;
+	
 	
 }
+/*facial*/
 
+.facial{
+	background: url("img/facial.jpg");
+	background-size: contain;
+	position: relative;
+	height: 220px;
+	width: 380px;
+	overflow: hidden;
+	border-radius: 38px;
+
+
+}
 
 .facial .front{
-	position: relative;
-	height: 200px;
-	width: 350px;
-	overflow: hidden;
-	border-radius: 10px;
-	cursor: pointer;
-	background-image: url("img/card1.jpg");
-	
-	} 
-.facial .front img{
 	width: 100%;
 	height: 100%;
 	transition: all 500ms ease-out;
-}
+	} 
+
 
 .facial .front h3{
+	position:absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+	bottom:0;
 	color: white;
 	font-size: 24px;
 	font-family: Bitter;
 	font-weight: 500;
-	word-wrap: break-word;
-	background-color: rgba(229, 127, 120, .5);
-	
+	background: rgba(229, 127, 120, .5);
+	border-radius: 10px,10px,0,0;
+	width: 100%;
+	height: 50px;
 	
 }
 
-div .facial .back {
+.facial .back {
 	position:absolute;
 	top:0;
 	width: 100%;
 	height: 100%;
-	background:#000000;
+	background:rgba(255,246,241,1.00);
 	transition: all 500ms ease-out;
 	opacity: 0;
 	visibility: hidden;
-	text-align: justify;
+	text-align: justify-all;
 	}
-.facial .back hover{
-	opacity: 1;
-	visibility: visible;
-	
-	
+
+.facial .back p{
+	align-items: center;
+	margin-top: 40px;
+	margin-left: 50px;
+	width: 80%;
+	height: 50%;
 	
 }
+.facial:hover .back {
+	opacity: 1;
+	visibility: visible;
+		
+}
+
+/*corporal*/
+.corporal{
+	background: url("img/card2.jpg");
+	background-size: contain;
+	position: relative;
+	height: 220px;
+	width: 380px;
+	overflow: hidden;
+	border-radius: 38px;
+
+}
+
+.corporal .front{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+	} 
+
+
+.corporal .front h3{
+	position:absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+	bottom:0;
+	color: white;
+	font-size: 24px;
+	font-family: Bitter;
+	font-weight: 500;
+	background: rgba(229, 127, 120, .5);
+	border-radius: 10px,10px,0,0;
+	width: 100%;
+	height: 50px;
+	
+}
+
+.corporal .back {
+	position:absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background:rgba(255,246,241,1.00);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: justify-all;
+	}
+
+.corporal .back p{
+	align-items: center;
+	margin-top: 40px;
+	margin-left: 50px;
+	width: 80%;
+	height: 50%;
+	
+}
+.corporal:hover .back {
+	opacity: 1;
+	visibility: visible;
+		
+}
+
+/*integral*/
+.integral{
+	background: url("img/card3.jpg");
+	background-size: contain;
+	position: relative;
+	height: 220px;
+	width: 380px;
+	overflow: hidden;
+	border-radius: 38px;
+	
+}
+
+.integral .front{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+	} 
+
+
+.integral .front h3{
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+	bottom: 0;
+	color: white;
+	font-size: 24px;
+	font-family: Bitter;
+	font-weight: 500;
+	background: rgba(229, 127, 120, .5);
+	border-radius: 10px,10px,0,0;
+	width: 100%;
+	height: 50px;
+	
+}
+
+.integral .back {
+	position:absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background:rgba(255,246,241,1.00);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: justify-all;
+	}
+
+.integral .back p {
+	align-items: center;
+	margin-top: 40px;
+	margin-left: 50px;
+	width: 80%;
+	height: 50%;
+	
+}
+.integral:hover .back {
+	opacity: 1;
+	visibility: visible;
+		
+}
+
 <<<<<<< HEAD
 
 =======
