@@ -723,9 +723,9 @@ textarea {
 
 #cards{
 	display: flex;
+	justify-content:space-around;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	padding-left: 20px;
 	background:rgba(229,127,120,1.00);
 	align-items: center;
 	
@@ -916,10 +916,9 @@ textarea {
 		
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/dai
+
+
 /* footer */
 
 nav ul{
