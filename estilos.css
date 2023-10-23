@@ -892,7 +892,7 @@ textarea {
 
 /*corporal*/
 .corporal{
-	background: url("img/card2.jpg");
+	background: url("img/corporal.jpg");
 	background-size: contain;
 	position: relative;
 	height: 220px;
@@ -953,7 +953,7 @@ textarea {
 
 /*integral*/
 .integral{
-	background: url("img/card3.jpg");
+	background: url("img/integral.jpg");
 	background-size: contain;
 	position: relative;
 	height: 220px;
@@ -995,22 +995,18 @@ textarea {
 	transition: all 500ms ease-out;
 	opacity: 0;
 	visibility: hidden;
-	text-align: justify-all;
-	}
+	text-align: justify-all;}
 
 .integral .back p {
 	align-items: center;
 	margin-top: 40px;
 	margin-left: 50px;
 	width: 80%;
-	height: 50%;
-	
-}
+	height: 50%;}
+
 .integral:hover .back {
 	opacity: 1;
-	visibility: visible;
-		
-}
+	visibility: visible;}
 
 
 
