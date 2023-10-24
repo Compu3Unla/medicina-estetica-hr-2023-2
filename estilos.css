@@ -871,50 +871,7 @@ textarea {
 	width: 80%;
 	height: 50%;
 	
-}
 
-
-/* FOOTER */
-.facial:hover .back {
-	opacity: 1;
-	visibility: visible;
-		
-}
-
-/*corporal*/
-.corporal{
-	background: url("img/card2.jpg");
-	background-size: contain;
-	position: relative;
-	height: 220px;
-	width: 380px;
-	overflow: hidden;
-	border-radius: 38px;
-
-}
-
-.corporal .front{
-	width: 100%;
-	height: 100%;
-	transition: all 500ms ease-out;
-	} 
-
-
-.corporal .front h3{
-	position:absolute;
-	padding-left: 20px;
-	padding-top: 15px;
-	bottom:0;
-	color: white;
-	font-size: 24px;
-	font-family: Bitter;
-	font-weight: 500;
-	background: rgba(229, 127, 120, .5);
-	border-radius: 10px,10px,0,0;
-	width: 100%;
-	height: 50px;
-	
-}
 
 .corporal .back {
 	position:absolute;
@@ -943,16 +900,7 @@ textarea {
 }
 
 /*integral*/
-.integral{
-	background: url("img/card3.jpg");
-	background-size: contain;
-	position: relative;
-	height: 220px;
-	width: 380px;
-	overflow: hidden;
-	border-radius: 38px;
-	
-}
+
 
 .integral .front{
 	width: 100%;
@@ -974,27 +922,7 @@ textarea {
 	border-radius: 10px,10px,0,0;
 	width: 100%;
 	height: 50px;
-	
-}
 
-.integral .back {
-	position:absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background:rgba(255,246,241,1.00);
-	transition: all 500ms ease-out;
-	opacity: 0;
-	visibility: hidden;
-	text-align: justify-all;
-	}
-
-.integral .back p {
-	align-items: center;
-	margin-top: 40px;
-	margin-left: 50px;
-	width: 80%;
-	height: 50%;
 	
 }
 .integral:hover .back {
@@ -1007,6 +935,7 @@ textarea {
 
 
 /* footer */
+
 
 nav ul{
 	display:flex;
