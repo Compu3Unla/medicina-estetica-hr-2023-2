@@ -420,12 +420,17 @@ h2 {
 
 /*QUIENES SOMOS*/
 
-.doctoras-quienessomos {
+.clase-quienessomos {
 	display: flex;
 	flex-direction: column;
-	height: 1044px;
-	padding: 60px 100px;
-	flex-shrink: 0;
+	margin: 50px 70px 0px 50px;;
+}
+
+.doctoras-quienessomos {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 40px 100px;
 }
 
 
@@ -477,7 +482,7 @@ h2 {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: flex-start;
-	padding-top: 22px;
+	padding-top: 24px;
 	gap: 23px;
 }
 
@@ -535,14 +540,24 @@ h2 {
 	font-weight: 500;
 }
 
+.contenedoresquienessomos {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contenedoresquienessomos p{
+	width: 60%;
+}
+
 .por-que-elegirnos {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	width: 90%;
 	height: 70%;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
-	gap: 62px;
+	gap: 65px;
+	padding: 0px 70px 0px 70px;
 }
 
 
@@ -758,7 +773,7 @@ textarea {
 }
 
 
-.reservarturno-boton {
+.sucursal button {
 	display: flex;
 	width: 247px;
 	height: 66px;
@@ -767,9 +782,6 @@ textarea {
 	border-radius: 36px;
 	border: 2px solid #FFF;
 	background: #DC8A84;
-}
-
-.reservarturno-boton h3 {
 	color: #FFF;
 	/* h3 botones */
 	font-family: Bitter;
@@ -790,8 +802,8 @@ textarea {
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: stretch;
-	width: 80%;
-	height: 80%;
+	width: 95%;
+	height: 95%;
 	margin-top: 90px;
 }
 
@@ -801,7 +813,6 @@ textarea {
 	gap: 20px;
 	width: 80%;
 	padding-left: 30px;
-	margin-right: 10px;
 }
 
 
