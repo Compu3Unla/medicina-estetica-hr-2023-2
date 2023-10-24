@@ -8,12 +8,6 @@
 	padding: 0px;
 }
 
-body {
-	display: flex;
-	width: 100;
-	flex-direction: column;
-	align-items: flex-start;
-}
 
 /*medicina estetica */
 h1{
@@ -64,7 +58,6 @@ h6{
 
 
 p {
-	width: 688px;
 	color: #1C8087;
 	font-family: Lato;
 	font-size: 20px;
@@ -80,7 +73,7 @@ p {
 header {
 	display:flex;
 	flex-direction: row;
-	width: 1920px;
+	width: 100%;
 	height: 120px;
 	gap: 780px;
 	background-color:#1C8087;
@@ -88,7 +81,7 @@ header {
 }
 
 
-button {
+header button {
 	background-color:#1C8087;
 	border-color: transparent;
 }
@@ -142,94 +135,109 @@ button {
 	align-items: flex-end;
 	width: 100%;
 	height: 804px;
-	padding: 100px 144px 500px 0px;
 	background: url("img/portada-index.jpg"), lightgray -43.638px -421.334px / 104.044% 165.774% no-repeat;
 	background-size: cover;
 	gap: 20px;
+	padding-bottom: 70px;;
 
 }
 
-.tratamientos-boton {
+.bienvenida img {
+	width: 292.228px;
+	height: 179.125px;
+	padding-right: 8%;
+	
+}
+
+.bienvenida h1 {
+	font-size: 48px;
+	padding-right: 70px;
+}
+
+.bienvenida h2 {
+	font-size: 40px;
+	padding-right: 8%;
+}
+
+
+.bienvenida button {
 	display: flex;
-	width: 278px;
 	height: 66px;
 	align-items: center;
 	flex-shrink: 0;
 	border-radius: 36px;
 	border: 2px solid #FFF;
 	background: #DC8A84;
-
-}
-
-.tratamientos-boton h3 {
+	margin-right: 11%;
 	color: #FFF;
 	font-family: Bitter;
 	font-size: 26px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
+	text-decoration: none;
+
 }
+
 
 /*RESEÑAS<*/
 .contenedor-resena{
-	position: relative;
 	width: 100%;
 	display: flex;
 	padding:20px;
 	background-color: #1C8087;
-}
-
-
-.pre-btn, .nxt-btn {
-	border: none;
-	width: 20px;
-	height: 20px;
-	position: absolute;
-	top: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
-	z-index: 9;
-	background-color: #1C8087;
-	color: #FFFFFF;
-}
-
-
-.pre-btn{
-	left: 0;
-	transform: translate(-50%, -50%);
-}
-
-.nxt-btn{
-	right: 0;
-	transform: translate(50%, -50%);
-}
-
-.pre-btn img, .nxt-btn img {
-	color: white;
+	flex-direction: column;
+	box-sizing: border-box;
 }
 
 
 .slider-resena {
-	postion:relative;
 	width: 100%;
+	max-width: 1920px;
 	height: 40%;
 	display: flex;
+	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
 	overflow:auto;
 	scroll-behavior:smooth;
-	background-color: #1C8087
+	background-color: #1C8087;
+	gap: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+	height: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #DC8A84;
+	width: 200px;
+	border-radius: 10px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #DC8A84
 }
 
 
 .resena {
-	width: 322px;
-	height: 208px;
+	min-width: 322px;
+	height: 165px;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: flex-start;
+	gap: 19px;
+	padding: 25px 0px;
 }
 
 
@@ -248,6 +256,10 @@ button {
 	flex-direction: column;
 	color: white;
 }
+
+.info-resena p{
+	color: white;
+	}
 
 .circulos {
 	height: 12px;
@@ -275,12 +287,13 @@ button {
 
 
 /*ESTO TOMA TODOS LOS DIV OJO!!!!!!<*/
-div {
+/*div {
 	display: flex;
 	flex-direction: column;
 	margin: 80px 40px 40px 40px;
 	gap: 25px;
 }
+<*/
 
 img {
 	width: 40%;
@@ -288,7 +301,6 @@ img {
 }
 
 h1 {
-	width: 470.981px;
 	color: #FFF;
 	text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.10);
 	font-family: Lato;
@@ -299,8 +311,6 @@ h1 {
 }
 
 h2 {
-	width: 337.916px;
-	height: 38.7px;
 	flex-shrink: 0;
 	filter: drop-shadow(2px 8px 4px rgba(0, 0, 0, 0.10));
 	font-family: Lato;
@@ -535,7 +545,7 @@ h2 {
 #main-contacto {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 90%;
 	margin: 0px 0 10px 0;
 	gap: 10%;
 }
@@ -543,30 +553,32 @@ h2 {
 .contenedores-contacto {
 	display: flex;
 	padding-top: 5%;
-	padding-left: 112px;
+	padding-left: 170px;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 20px;
 }
 
 .formulario {
-	padding-top: 7%;
+	padding-top: 20px;
 	gap: 80%;
 }
 
-
+/*
 article {
 	display: flex;
 	flex-direction: row;
 	gap: 8px;
 	padding: 0px 110px;
 }
+<*/
 
 .enviesuconsulta {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 0px 110px 10px;;
+	padding: 0px 10px 10px;;
+	width: 55%;
 }
 
 .enviesuconsulta h4{
@@ -576,7 +588,7 @@ article {
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	padding-bottom: 1px;
+	padding-bottom: 15px;
 }
 
 form {
@@ -589,7 +601,7 @@ form {
 	width: 100%;
 	height: auto;
 	gap: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	display: flex;
 	flex-direction: column;
 }
@@ -674,7 +686,7 @@ textarea {
 	display: flex;
 	width: 472px;
 	height: 1098px;
-	margin-top: 15%;
+	margin-top: 17%;
 	margin-left: 10px;
 	padding-right: 20px;
 	flex-direction: column;
@@ -879,51 +891,7 @@ textarea {
 	width: 80%;
 	height: 50%;
 	
-}
-<<<<<<< HEAD
 
-/* FOOTER */
-=======
-.facial:hover .back {
-	opacity: 1;
-	visibility: visible;
-		
-}
-
-/*corporal*/
-.corporal{
-	background: url("img/corporal.jpg");
-	background-size: contain;
-	position: relative;
-	height: 220px;
-	width: 380px;
-	overflow: hidden;
-	border-radius: 38px;
-
-}
-
-.corporal .front{
-	width: 100%;
-	height: 100%;
-	transition: all 500ms ease-out;
-	} 
-
-
-.corporal .front h3{
-	position:absolute;
-	padding-left: 20px;
-	padding-top: 15px;
-	bottom:0;
-	color: white;
-	font-size: 24px;
-	font-family: Bitter;
-	font-weight: 500;
-	background: rgba(229, 127, 120, .5);
-	border-radius: 10px,10px,0,0;
-	width: 100%;
-	height: 50px;
-	
-}
 
 .corporal .back {
 	position:absolute;
@@ -935,7 +903,7 @@ textarea {
 	opacity: 0;
 	visibility: hidden;
 	text-align: justify-all;
-	}
+}
 
 .corporal .back p{
 	align-items: center;
@@ -945,6 +913,7 @@ textarea {
 	height: 50%;
 	
 }
+	
 .corporal:hover .back {
 	opacity: 1;
 	visibility: visible;
@@ -952,16 +921,7 @@ textarea {
 }
 
 /*integral*/
-.integral{
-	background: url("img/integral.jpg");
-	background-size: contain;
-	position: relative;
-	height: 220px;
-	width: 380px;
-	overflow: hidden;
-	border-radius: 38px;
-	
-}
+
 
 .integral .front{
 	width: 100%;
@@ -983,36 +943,20 @@ textarea {
 	border-radius: 10px,10px,0,0;
 	width: 100%;
 	height: 50px;
+
 	
 }
-
-.integral .back {
-	position:absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background:rgba(255,246,241,1.00);
-	transition: all 500ms ease-out;
-	opacity: 0;
-	visibility: hidden;
-	text-align: justify-all;}
-
-.integral .back p {
-	align-items: center;
-	margin-top: 40px;
-	margin-left: 50px;
-	width: 80%;
-	height: 50%;}
-
 .integral:hover .back {
 	opacity: 1;
-	visibility: visible;}
+	visibility: visible;
+		
+}
 
 
 
 
 /* footer */
->>>>>>> origin/dai
+
 
 nav ul{
 	display:flex;
@@ -1031,9 +975,8 @@ footer {
 	padding: 20px 91px 42px 91px;
 	align-items: flex-end;
 	gap: 30%;
-	bottom: 0px;
 	width: 100%;
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 
 footer p {
