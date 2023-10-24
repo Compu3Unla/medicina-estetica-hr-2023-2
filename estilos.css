@@ -397,7 +397,7 @@ h2 {
 }
 
 .medicina-estetica p {
-	width: 10%;
+	width: 30%;
 }
 
 .medicina-estetica button {
@@ -495,13 +495,15 @@ h2 {
 
 .article-video {
 	display: flex;
+	width: 1918px;
+	height: 706px;
 	padding: 0px 55px 0px 93px;
 	align-items: center;
 	gap: 168px;
 }
 
-.article-video p {
-	width: 30%;
+.article-video p{
+	width: 50%;
 }
 
 
@@ -805,6 +807,7 @@ textarea {
 
 .mapa-seccion {
 	display: flex;
+	hight: 400%;
 	padding: 68px 20px 0px 80px;
 	align-items: flex-start;
 	flex-direction: column;
