@@ -396,6 +396,10 @@ h2 {
 	color: #1C8087;
 }
 
+.medicina-estetica p {
+	width: 10%;
+}
+
 .medicina-estetica button {
 	display: flex;
 	width: 239px;
@@ -491,11 +495,13 @@ h2 {
 
 .article-video {
 	display: flex;
-	width: 1918px;
-	height: 706px;
 	padding: 0px 55px 0px 93px;
 	align-items: center;
 	gap: 168px;
+}
+
+.article-video p {
+	width: 30%;
 }
 
 
@@ -799,8 +805,6 @@ textarea {
 
 .mapa-seccion {
 	display: flex;
-	width: 100%;
-	hight: 400%;
 	padding: 68px 20px 0px 80px;
 	align-items: flex-start;
 	flex-direction: column;
