@@ -875,39 +875,31 @@ textarea {
 /*facial*/
 
 .facial{
-	background: url("img/facial.jpg");
-	background-size: contain;
+	margin-left: 50px;
+	background-image:url("img/facial.jpg");
+	background-size: cover;
+	padding: 25px 60px;
+	border-radius: 20px;
 	position: relative;
-	height: 220px;
-	width: 380px;
-	overflow: hidden;
-	border-radius: 38px;
-
-
+	height: 100px;
+	width: 380px
 }
-
 .facial .front{
-	width: 100%;
-	height: 100%;
 	transition: all 500ms ease-out;
 	} 
-
-
 .facial .front h3{
 	position:absolute;
 	padding-left: 20px;
 	padding-top: 15px;
 	bottom:0;
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: Bitter;
-	font-weight: 500;
 	background: rgba(229, 127, 120, .5);
-	border-radius: 10px,10px,0,0;
+	border-radius: 10px,0px,0,0;
 	width: 100%;
-	height: 50px;
-	
-}
+	height: 30px;
+	right: -16px;}
 
 .facial .back {
 	position:absolute;
@@ -927,68 +919,6 @@ textarea {
 	margin-left: 50px;
 	width: 80%;
 	height: 50%;
-	
-
-
-.corporal .back {
-	position:absolute;
-	top:0;
-	width: 100%;
-	height: 100%;
-	background:rgba(255,246,241,1.00);
-	transition: all 500ms ease-out;
-	opacity: 0;
-	visibility: hidden;
-	text-align: justify-all;
-}
-
-.corporal .back p{
-	align-items: center;
-	margin-top: 40px;
-	margin-left: 50px;
-	width: 80%;
-	height: 50%;
-	
-}
-	
-.corporal:hover .back {
-	opacity: 1;
-	visibility: visible;
-		
-}
-
-/*integral*/
-
-
-.integral .front{
-	width: 100%;
-	height: 100%;
-	transition: all 500ms ease-out;
-	} 
-
-
-.integral .front h3{
-	position: absolute;
-	padding-left: 20px;
-	padding-top: 15px;
-	bottom: 0;
-	color: white;
-	font-size: 24px;
-	font-family: Bitter;
-	font-weight: 500;
-	background: rgba(229, 127, 120, .5);
-	border-radius: 10px,10px,0,0;
-	width: 100%;
-	height: 50px;
-
-	
-}
-.integral:hover .back {
-	opacity: 1;
-	visibility: visible;
-		
-}
-
 
 
 
