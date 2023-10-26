@@ -864,8 +864,8 @@ textarea {
 
 #cards{
 	display: flex;
-	justify-content:space-around;
-	padding-top: 60px;
+	justify-content:space-evenly;
+	padding-top: 80px;
 	padding-bottom: 100px;
 	background:rgba(229,127,120,1.00);
 	align-items: center;
@@ -1064,6 +1064,7 @@ footer {
 	display: flex;
 	padding: 20px 91px 42px 91px;
 	align-items: flex-end;
+	justify-content: space-between;
 	gap: 30%;
 	width: 100%;
 	box-sizing: border-box;
