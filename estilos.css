@@ -865,7 +865,7 @@ textarea {
 #cards{
 	display: flex;
 	justify-content:space-around;
-	padding-top: 100px;
+	padding-top: 60px;
 	padding-bottom: 100px;
 	background:rgba(229,127,120,1.00);
 	align-items: center;
@@ -875,41 +875,33 @@ textarea {
 /*facial*/
 
 .facial{
-	background: url("img/facial.jpg");
-	background-size: contain;
+	background-image:url("img/facial.jpg");
+	background-size: cover;
+	padding: 45px 0px;
+	border-radius: 20px;
 	position: relative;
-	height: 220px;
-	width: 380px;
-	overflow: hidden;
-	border-radius: 38px;
-
-
+	height: 100px;
+	width: 380px
 }
-
 .facial .front{
-	width: 100%;
-	height: 100%;
 	transition: all 500ms ease-out;
 	} 
-
-
 .facial .front h3{
 	position:absolute;
 	padding-left: 20px;
 	padding-top: 15px;
 	bottom:0;
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: Bitter;
-	font-weight: 500;
 	background: rgba(229, 127, 120, .5);
-	border-radius: 10px,10px,0,0;
 	width: 100%;
-	height: 50px;
-	
-}
+	height: 35px;
+	right: -16px;}
 
 .facial .back {
+	border-radius: 20px;
+	right: 0;
 	position:absolute;
 	top:0;
 	width: 100%;
@@ -922,15 +914,52 @@ textarea {
 	}
 
 .facial .back p{
+	font-size: 15px;
+	line-height: 20px;
 	align-items: center;
-	margin-top: 40px;
-	margin-left: 50px;
+	margin-top: 30px;
+	margin-left: 45px;
 	width: 80%;
 	height: 50%;
-	
 
+}
+
+.facial:hover .back {
+	opacity: 1;
+	visibility: visible;
+
+	}
+
+/*corporal*/
+
+.corporal{
+	background-image:url("img/corporal.jpg");
+	background-size: cover;
+	padding: 45px 0px;
+	border-radius: 20px;
+	position: relative;
+	height: 100px;
+	width: 380px
+}
+.corporal .front{
+	transition: all 500ms ease-out;
+	} 
+.corporal .front h3{
+	position:absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+	bottom:0;
+	color: white;
+	font-size: 20px;
+	font-family: Bitter;
+	background: rgba(229, 127, 120, .5);
+	width: 100%;
+	height: 35px;
+	right: -16px;}
 
 .corporal .back {
+	border-radius: 20px;
+	right: 0;
 	position:absolute;
 	top:0;
 	width: 100%;
@@ -940,57 +969,81 @@ textarea {
 	opacity: 0;
 	visibility: hidden;
 	text-align: justify-all;
-}
+	}
 
 .corporal .back p{
+	font-size: 15px;
+	line-height: 20px;
 	align-items: center;
-	margin-top: 40px;
-	margin-left: 50px;
+	margin-top: 30px;
+	margin-left: 40px;
 	width: 80%;
 	height: 50%;
-	
+
 }
-	
+
 .corporal:hover .back {
 	opacity: 1;
 	visibility: visible;
-		
-}
 
+	}
 /*integral*/
 
-
+.integral{
+	background-image: url("img/integral.jpg");
+	background-size: cover;
+	padding: 45px 0px;
+	border-radius: 20px;
+	position: relative;
+	height: 100px;
+	width: 380px
+}
 .integral .front{
-	width: 100%;
-	height: 100%;
 	transition: all 500ms ease-out;
 	} 
-
-
 .integral .front h3{
-	position: absolute;
+	position:absolute;
 	padding-left: 20px;
 	padding-top: 15px;
-	bottom: 0;
+	bottom:0;
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: Bitter;
-	font-weight: 500;
 	background: rgba(229, 127, 120, .5);
-	border-radius: 10px,10px,0,0;
 	width: 100%;
-	height: 50px;
+	height: 35px;
+	right: -16px;}
 
-	
+.integral .back {
+	border-radius: 20px;
+	right: 0;
+	position:absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background:rgba(255,246,241,1.00);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: justify-all;
+	}
+
+.integral .back p{
+	font-size: 15px;
+	line-height: 20px;
+	align-items: center;
+	margin-top: 30px;
+	margin-left: 40px;
+	width: 80%;
+	height: 50%;
+
 }
+
 .integral:hover .back {
 	opacity: 1;
 	visibility: visible;
-		
-}
 
-
-
+	}
 
 /* footer */
 
