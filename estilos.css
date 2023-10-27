@@ -8,7 +8,9 @@
 	padding: 0px;
 }
 
-
+body{
+	background:#FFF6F1
+}
 /*medicina estetica */
 h1{
 	color: white;
@@ -188,6 +190,7 @@ header button {
 
 /*RESEÑAS<*/
 .contenedor-resena{
+	margin-top: 30px;
 	width: 100%;
 	display: flex;
 	padding:20px;
