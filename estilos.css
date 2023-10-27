@@ -415,7 +415,6 @@ h2 {
 }
 
 .medicina-estetica button {
-	display: flex;
 	width: 239px;
 	height: 63px;
 	justify-content: space-between;
@@ -424,10 +423,13 @@ h2 {
 	border-radius: 36px;
 	border: 2px solid #FFF;
 	background: #DC8A84;
-	color: #FFF;
+}
+
+.medicina-estetica button a {
 	font-family: Bitter;
+	color: #FFFFFF;
 	font-size: 26px;
-	font-style: normal;
+	font-style: none;
 	font-weight: 500;
 	line-height: normal;
 }
