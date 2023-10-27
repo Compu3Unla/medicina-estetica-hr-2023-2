@@ -128,55 +128,60 @@ header button {
 
 
 /*** INDEX ***/
-
+.contenedor-bienvenida{
+	background: url("img/portada-index.jpg"), lightgray -43.638px -421.334px / 104.044% 165.774% no-repeat;
+	background-size: cover;
+}
 .bienvenida{
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: flex-end;
 	width: 100%;
 	height: 804px;
-	background: url("img/portada-index.jpg"), lightgray -43.638px -421.334px / 104.044% 165.774% no-repeat;
-	background-size: cover;
 	gap: 20px;
-	padding-bottom: 70px;
-	padding-right: 90px;
-
+	
 }
 
 .bienvenida img {
 	width: 292.228px;
 	height: 179.125px;
-	padding-right: 8%;
+	padding-right: 10%
 	
 }
 
 .bienvenida h1 {
 	font-size: 48px;
 	padding-right: 70px;
+	margin-bottom: -20px;
+	margin-top: -20px;
+
 }
 
 .bienvenida h2 {
 	font-size: 40px;
-	padding-right: 8%;
+	padding-right: 10%;
 }
 
-
 .bienvenida button {
-	display: flex;
 	height: 66px;
-	align-items: center;
-	flex-shrink: 0;
 	border-radius: 36px;
 	border: 2px solid #FFF;
 	background: #DC8A84;
-	margin-right: 11%;
+	padding: 0% 2%;
+	color: #FFF;
+	margin-right: 12%;
+	
+
+}
+.bienvenida button a{
 	color: #FFF;
 	font-family: Bitter;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: 500;
 	line-height: normal;
 	text-decoration: none;
+	
 
 }
 
@@ -917,8 +922,7 @@ textarea {
 .facial .back p{
 	font-size: 15px;
 	line-height: 20px;
-	align-items: center;
-	margin-top: 30px;
+	margin-top: 15%;
 	margin-left: 45px;
 	width: 80%;
 	height: 50%;
@@ -976,7 +980,7 @@ textarea {
 	font-size: 15px;
 	line-height: 20px;
 	align-items: center;
-	margin-top: 30px;
+	margin-top: 15%;
 	margin-left: 40px;
 	width: 80%;
 	height: 50%;
@@ -1033,7 +1037,8 @@ textarea {
 	font-size: 15px;
 	line-height: 20px;
 	align-items: center;
-	margin-top: 30px;
+	margin-top: 15%;
+	
 	margin-left: 40px;
 	width: 80%;
 	height: 50%;
