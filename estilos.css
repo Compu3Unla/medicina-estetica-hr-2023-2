@@ -171,8 +171,6 @@ header button {
 	padding: 0% 2%;
 	color: #FFF;
 	margin-right: 12%;
-	
-
 }
 .bienvenida button a{
 	color: #FFF;
@@ -181,8 +179,6 @@ header button {
 	font-weight: 500;
 	line-height: normal;
 	text-decoration: none;
-	
-
 }
 
 
@@ -420,23 +416,22 @@ h2 {
 }
 
 .medicina-estetica button {
-	width: 239px;
-	height: 63px;
-	justify-content: space-between;
-	align-items: center;
-	flex-shrink: 0;
+	width: 230px;
+	height: 66px;
 	border-radius: 36px;
 	border: 2px solid #FFF;
 	background: #DC8A84;
+	padding: 0% 2%;
+	color: #FFF;
+	margin-right: 12%;
 }
-
-.medicina-estetica button a {
+.medicina-estetica button a{
+	color: #FFF;
 	font-family: Bitter;
-	color: #FFFFFF;
-	font-size: 26px;
-	font-style: none;
+	font-size: 20px;
 	font-weight: 500;
 	line-height: normal;
+	text-decoration: none;
 }
 
 /*QUIENES SOMOS*/
@@ -550,19 +545,22 @@ h2 {
 }
 
 .article2-quienessomos button {
-	display: flex;
-	width: 278px;
 	height: 66px;
-	justify-content: space-between;
-	align-items: center;
-	flex-shrink: 0;
+	width: 230px;
 	border-radius: 36px;
-	border: #FFF;
+	border: 2px solid #FFF;
 	background: #DC8A84;
+	padding: 0% 2%;
+	color: #FFF;
+	margin-right: 12%;
+}
+.article2-quienessomos button a{
+	color: #FFF;
 	font-family: Bitter;
-	font-size: 26px;
-	font-style: normal;
+	font-size: 20px;
 	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
 }
 
 .contenedoresquienessomos {
@@ -722,22 +720,22 @@ input[type=radio], input[type=checkbox] {
 	border-radius: 30px;
 }
 
-input[type=submit], input[type=reset] {
-	display: flex;
-	width: 158px;
-	height: 71px;
-	justify-content: center;
-	align-items: center;
-	border-radius: 36px;
-	background: #DC8A84;
-	font-family: Bitter;
-	font-size: 26px;
-	font-style: normal;
-	font-weight: 500;
-	border-color: #DC8A84;
-	margin-top: 40px;
-}
 
+input[type=submit], input[type=reset]{
+	height: 66px;
+	width: 230px;
+	border-radius: 36px;
+	border: 2px solid #FFF;
+	background: #DC8A84;
+	padding: 0% 2%;
+	color: #FFF;
+	margin-right: 12%;
+	font-family: Bitter;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+}
 
 
 textarea {
@@ -823,25 +821,24 @@ textarea {
 	width: 87%;
 }
 
-
 .sucursal button {
-	display: flex;
-	width: 247px;
 	height: 66px;
-	align-items: center;
-	flex-shrink: 0;
+	width: 230px;
 	border-radius: 36px;
 	border: 2px solid #FFF;
 	background: #DC8A84;
+	padding: 0% 2%;
 	color: #FFF;
-	/* h3 botones */
-	font-family: Bitter;
-	font-size: 26px;
-	font-style: normal;
-	font-weight: 500;
-	align-items: center;
+	margin-right: 12%;
 }
-
+.sucursal button a{
+	color: #FFF;
+	font-family: Bitter;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+}
 
 .texto-sucursal {
 	display: flex;
