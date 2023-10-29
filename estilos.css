@@ -995,35 +995,7 @@ textarea {
 }
 
 
-
 /*SUCURSAL*/
-
-.sucursal {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	width: 40%;
-	padding: 68px 20px 0px 100px;
-	gap:40px;
-}
-
-.sucursal p {
-	width: 87%;
-}
-
-.sucursal button {
-	height: 66px;
-	width: 230px;
-	border-radius: 36px;
-	border: 2px solid #FFF;
-	background: #DC8A84;
-	padding: 0% 2%;
-	color: #FFF;
-	margin-right: 12%;
-}
-.sucursal button a{
-	color: #FFF;
-
 
 .texto-sucursal {
 	display: flex;
@@ -1070,6 +1042,35 @@ textarea {
 	width: 100%;
 	margin-bottom: 90px;
 }
+
+
+.sucursal {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 40%;
+	padding: 68px 20px 0px 100px;
+	gap:40px;
+}
+
+.sucursal p {
+	width: 87%;
+}
+
+.sucursal button {
+	height: 66px;
+	width: 230px;
+	border-radius: 36px;
+	border: 2px solid #FFF;
+	background: #DC8A84;
+	padding: 0% 2%;
+	color: #FFF;
+	margin-right: 12%;
+}
+.sucursal button a{
+	color: #FFF;
+
+
 
 
 
