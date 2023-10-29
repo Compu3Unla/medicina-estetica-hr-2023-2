@@ -945,6 +945,57 @@ textarea {
 }
 
 
+@media screen and (max-width: 600px){
+	
+	.texto-sucursal {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.sucursal p {
+		width: 140%;
+	}
+	
+	.imagenes {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+	
+	#miniaturas {
+		display: flex;
+		flex-direction: column;
+		max-width: 10%;
+		gap: 5px;
+	}
+	
+	.imagen1 {
+		width: 10%;
+	}
+	
+	.imagenes2 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	#galeria-oculta {
+		max-width: 350px;
+	}
+	
+	.fraccion-galeria {
+		min-width: 350px;
+	}
+	
+	.close {
+		top: 50px;
+		right: 5%
+	}
+	
+}
+
 
 /* CARDS */
 
