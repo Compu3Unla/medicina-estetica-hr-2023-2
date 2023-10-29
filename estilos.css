@@ -501,7 +501,6 @@ h2 {
 	height: 827px;
 	flex-direction: column;
 	justify-content: flex-end;
-	align-items: flex-start;
 	padding-top: 24px;
 	gap: 23px;
 }
@@ -669,7 +668,6 @@ form {
 }
 
 .nombre-apellido {
-	width: 100%;
 	height: auto;
 	gap: 10px;
 	padding-bottom: 10px;
@@ -706,7 +704,6 @@ input {
 	width: 100%;
 	height: 40px;
 	margin-bottom: 5px;
-	padding: 5px;
 	font-family: Bitter;
 	font-weight: 800;
 	border-radius: 26.5px;
@@ -818,7 +815,7 @@ textarea {
 }
 
 .sucursal p {
-	width: 87%;
+	width: 70%;
 }
 
 .sucursal button {
@@ -838,12 +835,13 @@ textarea {
 	font-weight: 500;
 	line-height: normal;
 	text-decoration: none;
+	color: #FFF;
 }
+
 
 .texto-sucursal {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
 }
 
 #miniaturas {
@@ -947,34 +945,56 @@ textarea {
 }
 
 
-
-.sucursal {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	width: 40%;
-	padding: 68px 20px 0px 100px;
-	gap:40px;
+@media screen and (max-width: 600px){
+	
+	.texto-sucursal {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.sucursal p {
+		width: 140%;
+	}
+	
+	.imagenes {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+	
+	#miniaturas {
+		display: flex;
+		flex-direction: column;
+		max-width: 10%;
+		gap: 5px;
+	}
+	
+	.imagen1 {
+		width: 10%;
+	}
+	
+	.imagenes2 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	#galeria-oculta {
+		max-width: 350px;
+	}
+	
+	.fraccion-galeria {
+		min-width: 350px;
+	}
+	
+	.close {
+		top: 50px;
+		right: 5%
+	}
+	
 }
-
-.sucursal p {
-	width: 87%;
-}
-
-.sucursal button {
-	height: 66px;
-	width: 230px;
-	border-radius: 36px;
-	border: 2px solid #FFF;
-	background: #DC8A84;
-	padding: 0% 2%;
-	color: #FFF;
-	margin-right: 12%;
-}
-.sucursal button a{
-	color: #FFF;
-
-
 
 
 /* CARDS */
