@@ -910,6 +910,8 @@ textarea {
 
 /*------IDS CON LAS IMÁGENES DE LA GALERÍA-------*/
 
+/*HAY QUE AGREGAR ESTAS IMAGENES CON EL TAMAÑO COMÚN, NO CON EL QUE NOS DICE FIGMA*/
+
 #foto-1 {
 	background-image: url("img/sucursal1.jpg");
 }
