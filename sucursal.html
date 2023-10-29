@@ -6,6 +6,17 @@
 	<link href="estilos.css" rel="stylesheet" type="text/css">	
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
 	<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<script>
+			function cambiarDisplay(visibilidadNueva){
+				document.getElementById("galeria").style.display = visibilidadNueva
+			}
+			function mostrarGaleria(){
+				cambiarDisplay('flex')
+			}
+			function ocultarGaleria(){
+				cambiarDisplay('none')
+			}
+	</script>
 </head>
 	
 <body>
@@ -32,12 +43,37 @@
 				<p> Nuestros objetivos como profesionales de la est&eacute;tica ubicados en Ramos Mej&iacute;a, es cumplir con el gran compromiso de extender una atenci&oacute;n personalizada a todos nuestros pacientes, adem&aacute;s de un lugar de calidez, y como se mencion&oacute; anteriormente, con instalaciones “elegantes”.</p>
 				<button><a href="contacto.html">Reservar turno</a></button>
 			</div>
+			
 			<div class="imagenes">
-				<img src="img/sucursal1.jpg" width="612px" height="509px" alt="sucursal1"/>
-				<div class="imagenes2">
-					<img src="img/sucursal2.jpg" width="298px" height="234px" alt="sucursal2"/>
-					<img src="img/sucursal3.jpg" width="298px" height="260px" alt="sucursal3"/>
-				</div>
+				<section id="miniaturas">
+					<div class="imagen1">
+						<a href="#foto-1"><img src="img/sucursal1-thumnail.jpg" width="612px" height="509px" alt="sucursal1" onClick="mostrarGaleria()"></a>
+					</div>
+					<div class="imagenes2">
+						<a href="#foto-2"><img src="img/sucursal2-thumnail.jpg" width="298px" height="234px" alt="sucursal2" onClick="mostrarGaleria()"></a>
+						<a href="#foto-3"><img src="img/sucursal3-thumnail.jpg" width="298px" height="260px" alt="sucursal3" onClick="mostrarGaleria()"></a>
+					</div>
+				</section>
+				
+				<section id="galeria">
+					<ul id="galeria-oculta">
+						<li class="fraccion-galeria" id="foto-1">
+							<a href="#" class="primer-ultima-flecha"><img src="img/back.svg" width="50px" height="50px" alt="Anterior"></a>
+							<img class="close" src="img/close.svg" alt="Cerrar" width="50px" height="50px" onClick="ocultarGaleria()">
+							<a href="#foto-2"><img src="img/next.svg" width="50px" height="50px" alt="Siguiente"></a>
+						</li>
+						<li class="fraccion-galeria" id="foto-2">
+							<a href="#foto-1"><img src="img/back.svg" width="50px" height="50px" alt="Anterior"></a>
+							<img class="close" src="img/close.svg" alt="Cerrar" width="50px" height="50px" onClick="ocultarGaleria()">
+							<a href="#foto-3"><img src="img/next.svg" width="50px" height="50px" alt="Siguiente"></a>
+						</li>
+						<li class="fraccion-galeria" id="foto-3">
+							<a href="#foto-2"><img src="img/back.svg" width="50px" height="50px" alt="Anterior"></a>
+							<img class="close" src="img/close.svg" alt="Cerrar" width="50px" height="50px" onClick="ocultarGaleria()">
+							<a href="#" class="primer-ultima-flecha"><img src="img/next.svg" width="50px" height="50px" alt="Siguiente"></a>
+						</li>
+					</ul>
+			</section>
 			</div>
 			
 		</section>
