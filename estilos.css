@@ -1226,11 +1226,6 @@ div footer {
 	align-self: stretch;
 }
 
-.contactofooter img {
-	width: 40px;
-	height: 40px;
-}
-
 .contactofooter {
 	display: flex;
 	flex-direction: row;
@@ -1239,7 +1234,14 @@ div footer {
 	list-style: none
 }
 
+.contactofooter img {
+	width: 40px;
+	height: 40px;
+}
 
+
+
+/*ESTO NO HACE NADA */
 
 a footer{
 	color: #ffffff;
@@ -1249,5 +1251,35 @@ a footer{
 	justify-content: center;
 	align-items: center;
 	flex-shrink: 0;
+}
+
+
+@media screen and (max-width: 600px){
+	footer {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		gap: 15px;
+		background: #1C8087;
+		padding-top: 20px;
+	}
+	
+	.contactofooter {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 60px;
+		padding-top: 30px;
+	}
+	
+	footer p {
+		display: flex;
+		padding-top: 20px;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-start;
+		gap: 5px;
+	}
 }
 
