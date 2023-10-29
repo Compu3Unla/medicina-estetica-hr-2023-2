@@ -808,8 +808,6 @@ textarea {
 
 /*SUCURSAL*/
 
-<<<<<<< HEAD
-=======
 .sucursal {
 	display: flex;
 	flex-direction: column;
@@ -842,10 +840,15 @@ textarea {
 	text-decoration: none;
 }
 
->>>>>>> origin/main
 .texto-sucursal {
 	display: flex;
-	justify-content: flex-end;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#miniaturas {
+	display: flex;
+	flex-direction: row;
 }
 
 .imagenes {
@@ -853,8 +856,6 @@ textarea {
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: stretch;
-	width: 95%;
-	height: 95%;
 	margin-top: 90px;
 }
 
@@ -866,6 +867,60 @@ textarea {
 	margin-right: 30px;
 }
 
+#galeria {
+	display: none;
+	width: 100%;
+	justify-content: center;
+	height: 100vh;
+	background-color: #000000;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+}
+
+#galeria-oculta {
+	display: flex;
+	width: 100%;
+	max-width: 1450px;
+	overflow: hidden;
+	z-index: 20;
+}
+
+.fraccion-galeria {
+	display: flex;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 100%;
+	min-width: 1450px;
+	height: 100vh;
+	justify-content: space-between;
+}
+
+.primer-ultima-flecha {
+	visibility: hidden;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 2%;
+}
+
+/*------IDS CON LAS IMÁGENES DE LA GALERÍA-------*/
+
+#foto-1 {
+	background-image: url("img/sucursal1.jpg");
+}
+
+#foto-2 {
+	background-image: url("img/sucursal2.jpg")
+}
+
+#foto-3 {
+	background-image:url("img/sucursal3.jpg");
+}
 
 .mapa-seccion {
 	display: flex;
@@ -890,7 +945,7 @@ textarea {
 }
 
 
-<<<<<<< HEAD
+
 .sucursal {
 	display: flex;
 	flex-direction: column;
@@ -920,18 +975,16 @@ textarea {
 
 
 
-=======
 /* CARDS */
 
 
-#cards{
+#cards {
 	display: flex;
 	justify-content:space-evenly;
 	padding-top: 80px;
 	padding-bottom: 100px;
 	background:rgba(229,127,120,1.00);
 	align-items: center;
-	
 	
 }
 /*facial*/
@@ -1101,12 +1154,11 @@ textarea {
 
 }
 
-.integral:hover .back {
+
 	opacity: 1;
 	visibility: visible;
 
 	}
->>>>>>> origin/main
 
 /* footer */
 
