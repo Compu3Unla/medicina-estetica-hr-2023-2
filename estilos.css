@@ -835,7 +835,6 @@ textarea {
 	font-weight: 500;
 	line-height: normal;
 	text-decoration: none;
-	color: #FFF;
 }
 
 
@@ -1175,9 +1174,13 @@ textarea {
 	height: 50%;
 
 }
+.tensores img {
+	padding: 45px 0px;
+	border-radius: 20px;
+	position: relative;
+	}
 
-
-	opacity: 1;
+	/*opacity: 1;
 	visibility: visible;
 
 	}
@@ -1254,6 +1257,8 @@ a footer{
 }
 
 
+
+
 @media screen and (max-width: 600px){
 	footer {
 		display: flex;
@@ -1264,6 +1269,7 @@ a footer{
 		background: #1C8087;
 		padding-top: 20px;
 	}
+	
 	
 	.contactofooter {
 		display: flex;
@@ -1283,3 +1289,74 @@ a footer{
 	}
 }
 
+/*CARRUSEL TRATAMIENTOS*/
+.tratamientos{
+	padding: 85px 55px;
+}
+
+.caja1 .front{
+	padding: 45px 0px;
+	border-radius: 25px;
+}
+.front .tensores{
+	border-radius: 25px;
+	position: relative;
+}
+.caja1 .back{
+	border-radius: 20px;
+	background:#DC8A84;
+	position:absolute;
+	bottom: 247px;
+	height: 350px;
+	width: 350px;
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	
+	}
+.caja1 .back img{
+	display: flex;
+	margin-top: 35%;
+	margin-left: 65px;
+	width: 60px;
+
+}
+
+.caja1 .back h3{
+	color: #FFF6F1;
+	font-size: 20px;
+	justify-content: center;
+	margin-left: 45%;
+	margin-top: -50px;
+}
+.caja1 .back h4{
+	color: #FFF6F1;
+	font-size: 15px;
+	justify-content: center;
+	margin-left: 45%;
+	margin-top: 0px;
+
+}
+.caja1 .back buton a{
+	color: #FFF6F1;
+	font-size: 25px;
+	justify-content: center;
+	margin: 0px 40px;
+	
+}
+.caja1 .back buton{
+	position: absolute;
+	bottom: 100px;
+	left: 15%;
+	border-radius: 36px;
+	border: 2px solid #FFF6F1;
+	padding: 2% 0%;
+	
+
+}
+.caja1:hover .back {
+	opacity: 1;
+	visibility: visible;
+
+	
+}
