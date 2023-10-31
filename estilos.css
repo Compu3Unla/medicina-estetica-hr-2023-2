@@ -1343,17 +1343,23 @@ a footer{
 
 /*CARRUSEL TRATAMIENTOS*/
 .tratamientos{
-	padding: 85px 55px;
+	padding: 85px 15px;
 }
 
-.caja1 .front{
-	padding: 45px 0px;
-	border-radius: 25px;
+#carruseltr{
+	display: flex;
+	justify-content:space-evenly;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	align-items: center;
+	
 }
-.front .tensores{
-	border-radius: 25px;
+.caja1 .front img{
+	padding: 45px 0px;
+	border-radius: 20%;
 	position: relative;
 }
+
 .caja1 .back{
 	border-radius: 20px;
 	background:#DC8A84;
@@ -1375,12 +1381,21 @@ a footer{
 	margin-top: 30px;
 }
 
+.caja1 .back h4{
+	color: #FFF6F1;
+	font-size: 14px;
+	justify-content: center;
+	margin-left: 10%;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
 .back ul li h5{
 	color: #FFF6F1;
 	font-size: 15px;
 	justify-content: center;
 	margin-left: 25%;
-	margin-top: 20px;
+	margin-top: 15px;
+	list-style: circle;
 }
 
 .back ul li p{
@@ -1389,7 +1404,9 @@ a footer{
 	font-size: 15px;
 	justify-content: center;
 	margin-left: 10%;
-	margin-top: 10px;
+	margin-top: 15px;
+	line-height: 20px;
+	list-style:none;
 }
 
 .caja1:hover .back {
