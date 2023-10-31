@@ -33,7 +33,6 @@ h4{
 	font-size: 33px;
 	font-family: Bitter;
 	font-weight: 700;
-	word-wrap: break-word;
 }
 
 /* crecimiento personal y experiencia */
@@ -43,7 +42,6 @@ h5{
 	font-size: 18px;
 	font-family: Bitter;
 	font-weight: 400;
-	word-wrap: break-word;
 }
 
 /* adriana serra*/
@@ -53,7 +51,6 @@ h6{
 	font-size: 20px;
 	font-family: Bitter;
 	font-weight: 700;
-	word-wrap: break-word;
 }
 
 
@@ -262,6 +259,7 @@ header button {
 	display: flex;
 	flex-direction: column;
 	color: white;
+	gap: 8px;
 }
 
 .info-resena p{
