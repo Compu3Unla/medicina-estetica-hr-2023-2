@@ -1366,105 +1366,35 @@ a footer{
 	visibility: hidden;
 	
 	}
-.caja1 .back img{
-	display: flex;
-	margin-top: 35%;
-	margin-left: 65px;
-	width: 60px;
-
-}
 
 .caja1 .back h3{
 	color: #FFF6F1;
 	font-size: 20px;
 	justify-content: center;
-	margin-left: 45%;
-	margin-top: -50px;
+	margin-left: 10%;
+	margin-top: 30px;
 }
-.caja1 .back h4{
+
+.back ul li h5{
 	color: #FFF6F1;
 	font-size: 15px;
 	justify-content: center;
-	margin-left: 45%;
-	margin-top: 0px;
-
+	margin-left: 25%;
+	margin-top: 20px;
 }
-.caja1 .back buton a{
+
+.back ul li p{
+	width: 60%;
 	color: #FFF6F1;
-	font-size: 25px;
+	font-size: 15px;
 	justify-content: center;
-	margin: 0px 40px;
-	text-decoration: none;
+	margin-left: 10%;
+	margin-top: 10px;
 }
-.caja1 .back buton{
-	position: absolute;
-	bottom: 100px;
-	left: 15%;
-	border-radius: 36px;
-	border: 2px solid #FFF6F1;
-	padding: 2% 0%;
-	cursor: pointer;
 
-}
 .caja1:hover .back {
 	opacity: 1;
 	visibility:visible;
 }
 
-/*boton ver mas*/
-#vermas .back2 {
-	color: #FFF6F1;
-	font-size: 25px;
-	justify-content: center;
-	margin: 0px 40px;
-	text-decoration: none;
-}
 
-.back2{
-	border-radius: 20px;
-	background:#DC8A84;
-	position: absolute;
-	bottom: 247px;
-	height: 350px;
-	width: 350px;
-	transition: all 500ms ease-out;
-	opacity: 0;
-	visibility: hidden;
-	
-	}
-.back2 h3{
-	color: #FFF6F1;
-	font-size: 20px;
-	justify-content: center;
-	margin-left: 45%;
-	margin-top: 0px;
-
-}
-
-.back2 h2{
-	font-size: 20px;
-	color: #FFF6F1;
-	padding:30px 60px 0px ;
-	margin-bottom: 30px;
-}
-.back2 h4{
-	color: #FFF6F1;
-	font-size: 15px;
-	justify-content: center;
-	margin-left: 45%;
-}
-.back2 img{
-	margin-top: -12%;
-	padding-bottom: 35px;
-	margin-left: 75px;
-	width: 40px;
-
-}
-
-.back2 ul li {
-	list-style: none;
-
-}
-.caja1:checked .back2 {
-	opacity: 1;
-}
