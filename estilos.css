@@ -1340,40 +1340,40 @@ a footer{
 		gap: 5px;
 	}
 }
-
 /*CARRUSEL TRATAMIENTOS*/
-.tratamientos{
-	padding: 85px 15px;
-}
 
-#carruseltr{
+
+#carruseltr {
 	display: flex;
 	justify-content:space-evenly;
 	padding-top: 80px;
 	padding-bottom: 100px;
 	align-items: center;
-	
 }
-.caja1 .front img{
+/*hilos tensores*/
+.tratamientott{
+	padding: 85px 15px;
+}
+.hilos{
 	padding: 45px 0px;
-	border-radius: 20%;
+}
+.hilos .front img {
+	border-radius: 20px;
 	position: relative;
 }
-
-.caja1 .back{
+.hilos .back {
 	border-radius: 20px;
 	background:#DC8A84;
 	position:absolute;
-	bottom: 247px;
+	
 	height: 350px;
 	width: 350px;
 	transition: all 500ms ease-out;
 	opacity: 0;
 	visibility: hidden;
-	
 	}
 
-.caja1 .back h3{
+.hilos .back h3{
 	color: #FFF6F1;
 	font-size: 20px;
 	justify-content: center;
@@ -1381,7 +1381,7 @@ a footer{
 	margin-top: 30px;
 }
 
-.caja1 .back h4{
+.hilos .back h4{
 	color: #FFF6F1;
 	font-size: 14px;
 	justify-content: center;
@@ -1389,13 +1389,16 @@ a footer{
 	margin-top: 5px;
 	margin-bottom: 25px;
 }
-.back ul li h5{
+.back ul li{
+	list-style: none;
+}
+.hilos ul li h5{
 	color: #FFF6F1;
 	font-size: 15px;
 	justify-content: center;
 	margin-left: 25%;
 	margin-top: 15px;
-	list-style: circle;
+	
 }
 
 .back ul li p{
@@ -1406,12 +1409,21 @@ a footer{
 	margin-left: 10%;
 	margin-top: 15px;
 	line-height: 20px;
-	list-style:none;
+	
 }
 
-.caja1:hover .back {
+.back p{
+	width: 60%;
+	color: #FFF6F1;
+	font-size: 15px;
+	justify-content: center;
+	margin-left: 10%;
+	margin-top: 15px;
+	line-height: 20px;
+	
+}
+.hilos:hover .back {
 	opacity: 1;
 	visibility:visible;
 }
-
 
