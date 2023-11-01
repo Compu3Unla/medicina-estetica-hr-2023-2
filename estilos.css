@@ -1293,10 +1293,9 @@ a footer{
 }
 /*CARRUSEL TRATAMIENTOS*/
 
-
 #carruseltr {
 	display: flex;
-	padding-top: 40px;
+	padding-top: 0px;
 	padding: 80px 0px 10px;
 	align-items: center;
 	box-sizing: border-box;
@@ -1304,10 +1303,10 @@ a footer{
 	scroll-behavior:smooth;
 	gap: 20px;
 }
-/*hilos tensores*/
+/*cards*/
 .tratamientott{
 	
-	padding: 85px 15px;
+	padding: 85px 15px 0;
 }
 .hilos{
 	padding: 45px 0px;
