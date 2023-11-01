@@ -353,7 +353,7 @@ h2 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	gap: 13px;
+	gap: 20px;
 }
 
 .medicina-estetica h5 {
@@ -479,7 +479,7 @@ video {
 }
 
 .article-video p{
-	width: 95%;
+	width: 65%;
 }
 
 
