@@ -1296,7 +1296,7 @@ a footer{
 
 #carruseltr {
 	display: flex;
-	
+	overflow: hidden;
 	padding-top: 80px;
 	padding: 80px 0px 10px;
 	align-items: center;
@@ -1304,11 +1304,11 @@ a footer{
 }
 /*hilos tensores*/
 .tratamientott{
+	
 	padding: 85px 15px;
 }
 .hilos{
 	padding: 45px 0px;
-	
 }
 .hilos .front img {
 	border-radius: 20px;
