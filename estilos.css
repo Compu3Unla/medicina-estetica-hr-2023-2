@@ -1296,7 +1296,7 @@ a footer{
 
 #carruseltr {
 	display: flex;
-	overflow: hidden;
+	overflow: hiden;
 	padding-top: 80px;
 	padding: 80px 0px 10px;
 	align-items: center;
@@ -1380,30 +1380,26 @@ a footer{
 	visibility:visible;
 }
 
-.carrusel-arrow{
-	border-radius: 30px;
-	background-color:#DC8A84;
+.flechas .control{
+	display: flex;
 	position: absolute;
-	z-index:4;
-	width: 48px;
-	height: 48px;
-	text-align: center;
-	border:0;
+	width: 40px;
+	height: 40px;
+	background: rgba(220,138,132,0.60);
+	border-radius: 50%;
 	cursor: pointer;
-}
-.carrusel-arrow:focus{
-	outline: 0;
-}
-.carrusel-arrow svg{
-	width: 12px;
-	height: 100%;
-	color: #FFFFFF;
+	object-fit: cover;
+	padding: 5px;
+	z-index: auto;
 
 }
-.carrusel-prev{
-	left:0px;
+#next {
+	right: 50%;
 	
 }
-.carrusel{
-	right: 0px
+ 
+.flechas.control .next{
+	left: 100%;
+	top:50%;
+	transform: translate(50%, -0%);
 }
