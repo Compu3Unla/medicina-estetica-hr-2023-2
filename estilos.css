@@ -1296,11 +1296,13 @@ a footer{
 
 #carruseltr {
 	display: flex;
-	overflow: hiden;
-	padding-top: 80px;
+	padding-top: 40px;
 	padding: 80px 0px 10px;
 	align-items: center;
-	gap:80px;
+	box-sizing: border-box;
+	overflow:auto;
+	scroll-behavior:smooth;
+	gap: 20px;
 }
 /*hilos tensores*/
 .tratamientott{
@@ -1380,26 +1382,9 @@ a footer{
 	visibility:visible;
 }
 
-.flechas .control{
-	display: flex;
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	background: rgba(220,138,132,0.60);
-	border-radius: 50%;
-	cursor: pointer;
-	object-fit: cover;
-	padding: 5px;
-	z-index: auto;
 
-}
-#next {
-	right: 50%;
-	
-}
- 
-.flechas.control .next{
-	left: 100%;
-	top:50%;
-	transform: translate(50%, -0%);
-}
+
+
+
+
+
