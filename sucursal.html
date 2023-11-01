@@ -2,16 +2,29 @@
 <html>
 <head>
 <meta charset="utf-8">
+	<link rel="icon" href= "favicon.ico" type="image/x-icon" />
 	<title>Sucursal</title>
 	<link href="estilos.css" rel="stylesheet" type="text/css">	
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
 	<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+			function cambiarDisplay(visibilidadNueva){
+				document.getElementById("galeria").style.display = visibilidadNueva
+			}
+			function mostrarGaleria(){
+				cambiarDisplay('flex')
+			}
+			function ocultarGaleria(){
+				cambiarDisplay('none')
+			}
+	</script>
 </head>
 	
 <body>
 	<header>
 		<button>
-			<svg><img src="img/isoblanco.svg" width="119px" height="74px" alt="fb"/></svg>
+			<a href="index.html"><img src="img/isoblanco.svg" width="119px" height="74px" alt="fb"/></a>
 		</button>
 		<nav class="nav-botonera">
 			<ul class="botonera">
@@ -27,40 +40,66 @@
 		<section class="texto-sucursal">
 			<div class="sucursal">
 				<h4>Sucursal</h4>
-				<p>Actualmente estamos ubicados en Ramos Mejía - Lavalle 26 (1704), Buenos Aires - Argentina. 
-				Creemos que todo el entorno influye en un tratamiento estéticos por eso nuestras instalaciones basadas en un diseño con elegancia.</p>
-				<p> Nuestros objetivos como profesionales de la estética ubicados en Ramos Mejía, es cumplir con el gran compromiso de extender una atención personalizada a todos nuestros pacientes, además de un lugar de calidez, y como se mencionó anteriormente, con instalaciones “elegantes”.</p>
+				<p>Actualmente estamos ubicados en Ramos Mej&iacute;a - Lavalle 26 (1704), Buenos Aires - Argentina. 
+				Creemos que todo el entorno influye en un tratamiento est&eacute;tico por eso nuestras instalaciones basadas en un diseño con elegancia.</p>
+				<p> Nuestros objetivos como profesionales de la est&eacute;tica ubicados en Ramos Mej&iacute;a, es cumplir con el gran compromiso de extender una atenci&oacute;n personalizada a todos nuestros pacientes, adem&aacute;s de un lugar de calidez, y como se mencion&oacute; anteriormente, con instalaciones “elegantes”.</p>
 				<button><a href="contacto.html">Reservar turno</a></button>
 			</div>
+			
 			<div class="imagenes">
-				<img src="img/sucursal1.jpg" width="40px" height="40px" alt="sucursal1"/>
-				<div class="imagenes2">
-					<img src="img/sucursal2.jpg" width="40px" height="40px" alt="sucursal2"/>
-					<img src="img/sucursal3.jpg" width="40px" height="40px" alt="sucursal3"/>
-				</div>
+				<section id="miniaturas">
+					<div class="imagen1">
+						<a href="#foto-1"><img src="img/sucursal1-thumnail.jpg" width="612px" height="509px" alt="sucursal1" onClick="mostrarGaleria()"></a>
+					</div>
+					<div class="imagenes2">
+						<a href="#foto-2"><img src="img/sucursal2-thumnail.jpg" width="298px" height="234px" alt="sucursal2" onClick="mostrarGaleria()"></a>
+						<a href="#foto-3"><img src="img/sucursal3-thumnail.jpg" width="298px" height="260px" alt="sucursal3" onClick="mostrarGaleria()"></a>
+					</div>
+				</section>
+				
+				<section id="galeria">
+					<ul id="galeria-oculta">
+						<li class="fraccion-galeria" id="foto-1">
+							<a href="#" class="primer-ultima-flecha"><img src="img/back.svg" width="50px" height="50px" alt="Anterior"></a>
+							<img class="close" src="img/close.svg" alt="Cerrar" width="50px" height="50px" onClick="ocultarGaleria()">
+							<a href="#foto-2"><img src="img/next.svg" width="50px" height="50px" alt="Siguiente"></a>
+						</li>
+						<li class="fraccion-galeria" id="foto-2">
+							<a href="#foto-1"><img src="img/back.svg" width="50px" height="50px" alt="Anterior"></a>
+							<img class="close" src="img/close.svg" alt="Cerrar" width="50px" height="50px" onClick="ocultarGaleria()">
+							<a href="#foto-3"><img src="img/next.svg" width="50px" height="50px" alt="Siguiente"></a>
+						</li>
+						<li class="fraccion-galeria" id="foto-3">
+							<a href="#foto-2"><img src="img/back.svg" width="50px" height="50px" alt="Anterior"></a>
+							<img class="close" src="img/close.svg" alt="Cerrar" width="50px" height="50px" onClick="ocultarGaleria()">
+							<a href="#" class="primer-ultima-flecha"><img src="img/next.svg" width="50px" height="50px" alt="Siguiente"></a>
+						</li>
+					</ul>
+			</section>
 			</div>
+			
 		</section>
 		<section class="mapa-seccion">
-			<h4>¿Dónde estamos?</h4>
+			<h4>¿D&oacute;nde estamos?</h4>
 			<div class="mapa">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.405630657251!2d-58.563056124257955!3d-34.64445757293968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc74707917441%3A0x44aaf9f5521055ca!2sMedicina%20Est%C3%A9tica%20CEHR!5e0!3m2!1ses-419!2sar!4v1696951968104!5m2!1ses-419!2sar" width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.405630657251!2d-58.563056124257955!3d-34.64445757293968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc74707917441%3A0x44aaf9f5521055ca!2sMedicina%20Est%C3%A9tica%20CEHR!5e0!3m2!1ses-419!2sar!4v1696951968104!5m2!1ses-419!2sar" width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</section>
-	
 	</main>
-	
 	
 	<footer>
 		<div>
-			<p>Lavalle 26, B1704 Ramos Mejía, Provincia de Buenos Aires.</p>
-			<p>Copyright © 2015-2023 Medicina Estética S.R.L.</p>
+			<p>Lavalle 26, B1704 Ramos Mej&iacute;a, Provincia de Buenos Aires.</p>
+			<p>Copyright © 2015-2023 Medicina Est&eacute;tica S.R.L.</p>
 		</div>
-		<ul class="contactofooter">
-			<li><img src="img/icono-mail.svg" width="40px" height="40px" alt="mail"/></li>
-			<li><img src="img/icono-ig.svg" width="40px" height="40px" alt="ig"/></li>
-			<li><img src="img/icono-fb.svg" width="40px" height="40px" alt="fb"/></li>
-			<li><img src="img/icono-whatsapp.svg" width="40px" height="40px" alt="wsp"/></li>
-		</ul>
+		<nav class="iconos-footer">
+			<ul class="contactofooter">
+				<li><a href="mailto:info@medicinaesteticacehr.com"><img src="img/icono-mail.svg" width="40px" height="40px" alt="mail"/></a></li>
+				<li><a href="https://www.instagram.com/medicinaesteticaherron/?igshid=NGVhN2U2NjQ0Yg%3D%3D"><img src="img/icono-ig.svg" width="40px" height="40px" alt="ig"/></a></li>
+				<li><a href="https://www.facebook.com/MedicinaEsteticaCEHR?ref=embed_page"><img src="img/icono-fb.svg" width="40px" height="40px" alt="fb"/></a></li>
+				<li><a href="https://api.whatsapp.com/message/S7H2CEV3DQJ6H1?autoload=1&app_absent=0"><img src="img/icono-whatsapp.svg" width="40px" height="40px" alt="wsp"/></a></li>
+			</ul>
+		</nav>
 	</footer>
 </body>
 </html>
