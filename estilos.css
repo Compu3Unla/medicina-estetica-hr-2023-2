@@ -322,60 +322,11 @@ h2 {
 
 .nosotras {
 	display: flex;
-	padding: 71px 90px 71px 90px;
 	flex-direction: column;
-	align-items: center;
-	gap: 46px;
-	align-self: stretch;
-	background-color: #FFF6F1;
-	background: url("img/isorosa.svg"), lightgray 5202423269426839000px -6357820700931001000px / -345860893552552800% -923088283391648000% no-repeat, #FFF6F1;
+	width: 100%;
+	height: 830px
 }
 
-.titulo {
-	display: flex;
-	flex-direction: column;
-	padding: 40px;
-	margin: 30px;
-	gap: 10px;
-}
-
-.titulo h5 {
-	color: #1C8087;
-}
-
-.doctoras {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding: 40px;
-}
-
-
-.doctoras img {
-	width: 473px;
-	height: 473px;
-	border-radius: 90%;
-}
-
-
-.doctoras ul {
-	padding-top: 20px;
-}
-
-.doctoras ul li {
-	color: #1C8087;
-	font-family: Lato;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 34.2px;
-	max-width: 55%;
-}
-
-.doctoras h4 {
-	color: #DC8A84;
-	padding-top: 5px;
-}
 
 /*TRATAMIENTOS*/
 
@@ -647,7 +598,7 @@ article {
 	flex-direction: column;
 	align-items: flex-start;
 	padding: 0px 10px 10px;;
-	width: 60%;
+	width: 55%;
 }
 
 .enviesuconsulta h4{
