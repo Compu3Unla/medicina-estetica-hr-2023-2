@@ -89,8 +89,6 @@ header button {
 	height: 74px;
 }
 
-/* probarlo en html */
-/* lo pasé a html 08/10*/
 
 .nav-botonera{
 	display: flex;
@@ -124,6 +122,7 @@ header button {
 }
 
 
+
 /*** INDEX ***/
 .contenedor-bienvenida{
 	background: url("img/portada-index.jpg"), lightgray -43.638px -421.334px / 104.044% 165.774% no-repeat;
@@ -143,8 +142,7 @@ header button {
 .bienvenida img {
 	width: 292.228px;
 	height: 179.125px;
-	padding-right: 10%
-	
+	padding-right: 10%;
 }
 
 .bienvenida h1 {
@@ -152,7 +150,6 @@ header button {
 	padding-right: 70px;
 	margin-bottom: -20px;
 	margin-top: -20px;
-
 }
 
 .bienvenida h2 {
@@ -169,6 +166,7 @@ header button {
 	color: #FFF;
 	margin-right: 12%;
 }
+
 .bienvenida button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -177,6 +175,7 @@ header button {
 	line-height: normal;
 	text-decoration: none;
 }
+
 
 
 /*RESEÑAS<*/
@@ -291,16 +290,6 @@ header button {
 
 
 
-/*ESTO TOMA TODOS LOS DIV OJO!!!!!<*/
-/*div {
-	display: flex;
-	flex-direction: column;
-	margin: 80px 40px 40px 40px;
-	gap: 25px;
-}
-<*/
-
-
 h1 {
 	color: #FFF;
 	text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.10);
@@ -328,6 +317,7 @@ h2 {
 }
 
 
+
 /*TRATAMIENTOS*/
 
 .tratamientos-html {
@@ -348,7 +338,6 @@ h2 {
 
 .medicina-estetica {
 	display: flex;
-	width: 1919px;
 	padding: 68px 107px 86px 110px;
 	flex-direction: column;
 	justify-content: center;
@@ -383,6 +372,8 @@ h2 {
 	text-decoration: none;
 }
 
+
+
 /*QUIENES SOMOS*/
 
 .clase-quienessomos {
@@ -401,7 +392,6 @@ h2 {
 	justify-content: center;
 	padding: 40px 100px;
 }
-
 
 .doctoras-quienessomos h5 {
 	color: #1C8087;
@@ -559,10 +549,11 @@ video {
 	padding: 70px 70px 0px 70px;
 }
 
-
 .por-que-elegirnos h4 {
 	padding: 13px 0px 13px 0px;
 }
+
+
 
 /* FORMULARIO DE CONTACTO */
 
@@ -915,8 +906,6 @@ textarea {
 
 /*------IDS CON LAS IMÁGENES DE LA GALERÍA-------*/
 
-/*HAY QUE AGREGAR ESTAS IMAGENES CON EL TAMAÑO COMÚN, NO CON EL QUE NOS DICE FIGMA*/
-
 #foto-1 {
 	background-image: url("img/sucursal1.jpg");
 }
@@ -1004,8 +993,8 @@ textarea {
 }
 
 
-/* CARDS */
 
+/* CARDS */
 
 #cards {
 	display: flex;
@@ -1027,9 +1016,11 @@ textarea {
 	height: 100px;
 	width: 380px
 }
+
 .facial .front{
 	transition: all 500ms ease-out;
-	} 
+} 
+
 .facial .front h3{
 	position:absolute;
 	padding-left: 20px;
@@ -1041,7 +1032,8 @@ textarea {
 	background: rgba(229, 127, 120, .5);
 	width: 100%;
 	height: 35px;
-	right: -16px;}
+	right: -16px;
+}
 
 .facial .back {
 	border-radius: 20px;
@@ -1055,7 +1047,7 @@ textarea {
 	opacity: 0;
 	visibility: hidden;
 	text-align: justify-all;
-	}
+}
 
 .facial .back p{
 	font-size: 15px;
@@ -1064,14 +1056,13 @@ textarea {
 	margin-left: 45px;
 	width: 80%;
 	height: 50%;
-
 }
 
 .facial:hover .back {
 	opacity: 1;
 	visibility: visible;
+}
 
-	}
 
 /*corporal*/
 
@@ -1084,9 +1075,11 @@ textarea {
 	height: 100px;
 	width: 380px
 }
+
 .corporal .front{
 	transition: all 500ms ease-out;
-	} 
+} 
+
 .corporal .front h3{
 	position:absolute;
 	padding-left: 20px;
@@ -1098,7 +1091,8 @@ textarea {
 	background: rgba(229, 127, 120, .5);
 	width: 100%;
 	height: 35px;
-	right: -16px;}
+	right: -16px;
+}
 
 .corporal .back {
 	border-radius: 20px;
@@ -1112,7 +1106,7 @@ textarea {
 	opacity: 0;
 	visibility: hidden;
 	text-align: justify-all;
-	}
+}
 
 .corporal .back p{
 	font-size: 15px;
@@ -1122,14 +1116,14 @@ textarea {
 	margin-left: 40px;
 	width: 80%;
 	height: 50%;
-
 }
 
 .corporal:hover .back {
 	opacity: 1;
 	visibility: visible;
+}
 
-	}
+
 /*integral*/
 
 .integral{
@@ -1141,9 +1135,11 @@ textarea {
 	height: 100px;
 	width: 380px
 }
+
 .integral .front{
 	transition: all 500ms ease-out;
-	} 
+} 
+
 .integral .front h3{
 	position:absolute;
 	padding-left: 20px;
@@ -1155,7 +1151,8 @@ textarea {
 	background: rgba(229, 127, 120, .5);
 	width: 100%;
 	height: 35px;
-	right: -16px;}
+	right: -16px;
+}
 
 .integral .back {
 	border-radius: 20px;
@@ -1169,32 +1166,31 @@ textarea {
 	opacity: 0;
 	visibility: hidden;
 	text-align: justify-all;
-	}
+}
 
 .integral .back p{
 	font-size: 15px;
 	line-height: 20px;
 	align-items: center;
 	margin-top: 15%;
-	
 	margin-left: 40px;
 	width: 80%;
 	height: 50%;
-
 }
+
 .tensores img {
 	padding: 45px 0px;
 	border-radius: 20px;
 	position: relative;
-	}
+}
 
 	/*opacity: 1;
 	visibility: visible;
 
 	}
 
-/* FOOTER */
 
+/* FOOTER */
 
 nav ul{
 	display:flex;
@@ -1252,21 +1248,6 @@ div footer {
 
 
 
-/*ESTO NO HACE NADA */
-
-a footer{
-	color: #ffffff;
-	display: flex;
-	width: 35px;
-	height: 35px;
-	justify-content: center;
-	align-items: center;
-	flex-shrink: 0;
-}
-
-
-
-
 @media screen and (max-width: 600px){
 	footer {
 		display: flex;
@@ -1296,12 +1277,15 @@ a footer{
 		gap: 5px;
 	}
 }
+
+
+
 /*CARRUSEL TRATAMIENTOS*/
 
 #carruseltr {
 	display: flex;
 	padding-top: 0px;
-	padding: 80px 0px 10px;
+	padding: 20px 0px 10px;
 	align-items: center;
 	box-sizing: border-box;
 	overflow:auto;
@@ -1311,16 +1295,23 @@ a footer{
 }
 /*cards*/
 .tratamientott{
-	
-	padding: 85px 15px 0;
+	padding: 85px 15px 10px 110px;
 }
+
+.tratamientott h5{
+	color: #1C8087;
+}
+
+
 .hilos{
 	padding: 45px 0px;
 }
+
 .hilos .front img {
 	border-radius: 20px;
 	position: relative;
 }
+
 .hilos .back {
 	border-radius: 20px;
 	background:#DC8A84;
@@ -1331,7 +1322,7 @@ a footer{
 	opacity: 0;
 	visibility: hidden;
 	top:125px;
-	}
+}
 
 .hilos .back h3{
 	color: #FFF6F1;
@@ -1369,7 +1360,6 @@ a footer{
 	margin-left: 10%;
 	margin-top: 15px;
 	line-height: 20px;
-	
 }
 
 .back p{
@@ -1380,7 +1370,6 @@ a footer{
 	margin-left: 10%;
 	margin-top: 15px;
 	line-height: 20px;
-	
 }
 .hilos:hover .back {
 	opacity: 1;
