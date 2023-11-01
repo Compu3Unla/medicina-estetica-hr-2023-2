@@ -1353,6 +1353,7 @@ a footer{
 }
 /*hilos tensores*/
 .tratamientott{
+	overflow: hidden;
 	padding: 85px 15px;
 }
 .hilos{
