@@ -468,14 +468,18 @@ h2 {
 
 .article-video {
 	display: flex;
-	padding: 70px 55px 0px 93px;
+	padding: 70px 55px 0px 150px;
 	margin: 50px;
 	align-items: center;
 	gap: 10%;
 }
 
+video {
+	border-radius: 25px;
+}
+
 .article-video p{
-	width: 50%;
+	width: 95%;
 }
 
 
@@ -484,8 +488,7 @@ h2 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	padding-left: 70px;
-	gap: 18px;
+	gap: 23px;
 }
 
 .article2-quienessomos h5 {
@@ -500,8 +503,10 @@ h2 {
 	background: #DC8A84;
 	padding: 0% 2%;
 	color: #FFF;
+	margin-top: 25px;
 	margin-right: 12%;
 }
+
 .article2-quienessomos button a{
 	color: #FFF;
 	font-family: Bitter;
