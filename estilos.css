@@ -626,10 +626,16 @@ video {
 		display: flex;
 		flex-direction: column;
 		padding-left: 25px;
+		padding-top: 5px;
 	}
 	
 	.article-video p {
 		width: 110%;
+	}
+	
+	video {
+		width: 108%;
+		height: 70%;
 	}
 	
 	.article2-quienessomos {
