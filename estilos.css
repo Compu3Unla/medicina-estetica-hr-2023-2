@@ -1398,6 +1398,7 @@ div footer {
 	scroll-behavior:smooth;
 	gap:20px;
 	position: relative;
+	margin-left: 110px;
 }
 /*cards*/
 .tratamientott{
@@ -1427,7 +1428,7 @@ div footer {
 	transition: all 500ms ease-out;
 	opacity: 0;
 	visibility: hidden;
-	top:125px;
+	top:65px;
 }
 
 .hilos .back h3{
