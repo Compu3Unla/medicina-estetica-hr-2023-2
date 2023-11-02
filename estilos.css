@@ -379,7 +379,7 @@ h2 {
 .clase-quienessomos {
 	display: flex;
 	flex-direction: column;
-	margin: 70px 70px 0px 95px;
+	margin: 50px 70px 0px 50px;;
 }
 
 .clase-quienessomos h5{
@@ -458,10 +458,10 @@ h2 {
 
 .article-video {
 	display: flex;
-	padding: 70px 55px 0px 170px;
+	padding: 70px 55px 0px 150px;
 	margin: 50px;
 	align-items: center;
-	gap: 9%;
+	gap: 10%;
 }
 
 video {
@@ -493,6 +493,7 @@ video {
 	background: #DC8A84;
 	padding: 0% 2%;
 	color: #FFF;
+	margin-top: 25px;
 	margin-right: 12%;
 }
 
@@ -554,56 +555,12 @@ video {
 
 
 
-@media screen and (max-width: 600px){
-	.doctoras-quienessomos {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		padding: 40px 71px;
-		gap: 50px;
-	}
-	
-	.doctora2-quienessomos {
-		padding-left: 38px;
-	}
-	
-	.article-video {
-		display: flex;
-		flex-direction: column;
-		padding: 70px 55px 0px 38px;
-		margin-top: 50px;
-		margin-left: 39px;
-		align-items: center;
-		gap: 9%;
-	}
-	
-	video {
-		border-radius: 25px;
-	}
-	
-	.article-video p {
-		width: 100%;
-	}
-	
-	.por-que-elegirnos {
-		padding-left: 65px;
-	}
-	
-	.contenedoresquienessomos {
-		display: flex;
-		flex-direction: column;
-		padding-left: 7px;
-		gap: 84px;
-	}
-
-
-
 /* FORMULARIO DE CONTACTO */
 
 #main-contacto {
 	display: flex;
 	flex-direction: row;
-	width: 85%;
+	width: 90%;
 	margin: 0px 0 10px 0;
 	gap: 10%;
 }
@@ -611,7 +568,7 @@ video {
 .contenedores-contacto {
 	display: flex;
 	padding-top: 5%;
-	padding-left: 183px;
+	padding-left: 170px;
 	margin-bottom: 70px;
 	flex-direction: column;
 	align-items: flex-start;
@@ -991,15 +948,6 @@ textarea {
 		flex-direction: column;
 	}
 	
-	.sucursal {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		width: 55%;
-		padding: 68px 20px 0px 50px;
-		gap:40px;
-	}
-	
 	.sucursal p {
 		width: 140%;
 	}
@@ -1042,14 +990,6 @@ textarea {
 		right: 5%
 	}
 	
-	.mapa-seccion {
-		display: flex;
-		padding: 68px 20px 0px 40px;
-		align-items: flex-start;
-		flex-direction: column;
-		margin-right: 10px;
-		gap:50px;
-	}
 }
 
 
@@ -1266,12 +1206,27 @@ nav ul li {
 footer {
 	background-color: #1C8087;
 	display: flex;
+<<<<<<< HEAD
+	width: 100%;
+	padding: 20px 91px 42px 91px;
+=======
 	padding: 35px 91px 42px 91px;
+>>>>>>> origin/main
 	align-items: flex-end;
 	justify-content: space-between;
 	gap: 30%;
+<<<<<<< HEAD
+	bottom: 0px;
+<<<<<<< HEAD
+	
+=======
+	width: 100%;
+	box-sizing: content-box;
+>>>>>>> origin/main
+=======
 	width: 100%;
 	box-sizing: border-box;
+>>>>>>> origin/main
 }
 
 footer p {
@@ -1344,8 +1299,14 @@ div footer {
 
 #carruseltr {
 	display: flex;
+<<<<<<< HEAD
+	width: 20px;
+	height: 20px;
+	justify-content: center;
+=======
 	padding-top: 0px;
 	padding: 20px 0px 10px;
+>>>>>>> origin/main
 	align-items: center;
 	box-sizing: border-box;
 	overflow:auto;
@@ -1435,3 +1396,10 @@ div footer {
 	opacity: 1;
 	visibility:visible;
 }
+
+
+
+
+
+
+
