@@ -225,6 +225,11 @@ header button {
 	margin-right: 12%;
 }
 
+.bienvenida button:hover{
+	background-color:#1C8087;
+	transition: all 500ms ease-out;
+}
+
 .bienvenida button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -603,6 +608,12 @@ h2 {
 	color: #FFF;
 	margin-right: 12%;
 }
+
+.medicina-estetica button:hover{
+	background-color:#1C8087;
+	transition: all 500ms ease-out;
+}
+
 .medicina-estetica button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -737,6 +748,11 @@ video {
 	margin-right: 12%;
 }
 
+.article2-quienessomos button:hover{
+	background-color:#1C8087;
+	transition: all 500ms ease-out;
+}
+
 .article2-quienessomos button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -745,6 +761,8 @@ video {
 	line-height: normal;
 	text-decoration: none;
 }
+
+
 
 .contenedoresquienessomos {
 	display: flex;
@@ -967,6 +985,11 @@ input[type=submit], input[type=reset]{
 	margin-top: 20px;
 }
 
+input[type=submit]:hover{
+	background-color:#1C8087;
+	transition: all 500ms ease-out;
+}
+
 
 textarea {
 	width: 100%;
@@ -1112,6 +1135,12 @@ textarea {
 	color: #FFF;
 	margin-right: 12%;
 }
+
+.sucursal button:hover{
+	background-color:#1C8087;
+	transition: all 500ms ease-out;
+}
+
 .sucursal button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -1120,6 +1149,7 @@ textarea {
 	line-height: normal;
 	text-decoration: none;
 }
+
 
 
 .texto-sucursal {
@@ -1283,6 +1313,208 @@ textarea {
 	}
 }
 
+<<<<<<< HEAD
+=======
+
+
+/* CARDS */
+
+#cards {
+	display: flex;
+	justify-content:space-evenly;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	background:rgba(229,127,120,1.00);
+	align-items: center;
+	
+}
+/*facial*/
+
+.facial{
+	background-image:url("img/facial.jpg");
+	background-size: cover;
+	padding: 45px 0px;
+	border-radius: 20px;
+	position: relative;
+	height: 100px;
+	width: 380px
+}
+
+.facial .front{
+	transition: all 500ms ease-out;
+} 
+
+.facial .front h3{
+	position:absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+	bottom:0;
+	color: white;
+	font-size: 20px;
+	font-family: Bitter;
+	background: rgba(229, 127, 120, .5);
+	width: 100%;
+	height: 35px;
+	right: -16px;
+}
+
+.facial .back {
+	border-radius: 20px;
+	right: 0;
+	position:absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background:rgba(255,246,241,1.00);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: justify-all;
+}
+
+.facial .back p{
+	font-size: 15px;
+	line-height: 20px;
+	margin-top: 15%;
+	margin-left: 45px;
+	width: 80%;
+	height: 50%;
+}
+
+.facial:hover .back {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+/*corporal*/
+
+.corporal{
+	background-image:url("img/corporal.jpg");
+	background-size: cover;
+	padding: 45px 0px;
+	border-radius: 20px;
+	position: relative;
+	height: 100px;
+	width: 380px
+}
+
+.corporal .front{
+	transition: all 500ms ease-out;
+} 
+
+.corporal .front h3{
+	position:absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+	bottom:0;
+	color: white;
+	font-size: 20px;
+	font-family: Bitter;
+	background: rgba(229, 127, 120, .5);
+	width: 100%;
+	height: 35px;
+	right: -16px;
+}
+
+.corporal .back {
+	border-radius: 20px;
+	right: 0;
+	position:absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background:rgba(255,246,241,1.00);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: justify-all;
+}
+
+.corporal .back p{
+	font-size: 15px;
+	line-height: 20px;
+	align-items: center;
+	margin-top: 15%;
+	margin-left: 40px;
+	width: 80%;
+	height: 50%;
+	color: #1C8087;
+}
+
+.corporal:hover .back {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+/*integral*/
+
+.integral{
+	background-image: url("img/integral.jpg");
+	background-size: cover;
+	padding: 45px 0px;
+	border-radius: 20px;
+	position: relative;
+	height: 100px;
+	width: 380px
+}
+
+.integral .front{
+	transition: all 500ms ease-out;
+} 
+
+.integral .front h3{
+	position:absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+	bottom:0;
+	color: white;
+	font-size: 20px;
+	font-family: Bitter;
+	background: rgba(229, 127, 120, .5);
+	width: 100%;
+	height: 35px;
+	right: -16px;
+}
+
+.integral .back {
+	border-radius: 20px;
+	right: 0;
+	position:absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background:rgba(255,246,241,1.00);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: justify-all;
+}
+
+.integral .back p{
+	font-size: 15px;
+	line-height: 20px;
+	align-items: center;
+	margin-top: 15%;
+	margin-left: 40px;
+	width: 80%;
+	height: 50%;
+}
+
+.tensores img {
+	padding: 45px 0px;
+	border-radius: 20px;
+	position: relative;
+}
+
+	/*opacity: 1;
+	visibility: visible;
+
+	}
+
+
+>>>>>>> origin/main
 /* FOOTER */
 
 nav ul{
@@ -1339,6 +1571,11 @@ div footer {
 	height: 40px;
 }
 
+.contactofooter img:hover{
+	background-color:#DC8A84;
+	transition: all 500ms ease-out;
+}
+
 
 
 @media screen and (max-width: 600px){
@@ -1384,6 +1621,7 @@ div footer {
 	scroll-behavior:smooth;
 	gap:20px;
 	position: relative;
+	margin-left: 110px;
 }
 /*cards*/
 .tratamientott{
@@ -1413,7 +1651,7 @@ div footer {
 	transition: all 500ms ease-out;
 	opacity: 0;
 	visibility: hidden;
-	top:125px;
+	top:65px;
 }
 
 .hilos .back h3{
