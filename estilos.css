@@ -610,6 +610,45 @@ video {
 }
 
 
+@media screen and (max-width: 600px){
+	.doctoras-quienessomos {
+		display: flex;
+		flex-direction: column;
+		gap: 70px;
+		padding-left: 45px;
+	}
+	
+	.doctora2-quienessomos {
+		padding-left: 35px;
+	}
+	
+	.article-video {
+		display: flex;
+		flex-direction: column;
+		padding-left: 25px;
+	}
+	
+	.article-video p {
+		width: 110%;
+	}
+	
+	.article2-quienessomos {
+		margin-top: 50px;
+	}
+	
+	.contenedoresquienessomos {
+		display: flex;
+		flex-direction: column;
+		gap: 71px;
+		padding-left: 7px;
+	}
+	
+	.por-que-elegirnos {
+		padding-top: 20px;
+	}
+}
+
+
 
 /* FORMULARIO DE CONTACTO */
 
@@ -1004,8 +1043,12 @@ textarea {
 		flex-direction: column;
 	}
 	
+	.sucursal {
+		padding: 68px 20px 0px 56px;
+	}
+	
 	.sucursal p {
-		width: 140%;
+		width: 200%;
 	}
 	
 	.imagenes {
@@ -1046,6 +1089,9 @@ textarea {
 		right: 5%
 	}
 	
+	.mapa-seccion {
+		padding-left: 50px;
+	}
 }
 
 
