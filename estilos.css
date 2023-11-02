@@ -223,6 +223,11 @@ header button {
 	margin-right: 12%;
 }
 
+.bienvenida button:hover{
+	background-color:#1C8087;
+	transition: all 500ms ease-out;
+}
+
 .bienvenida button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -419,6 +424,12 @@ h2 {
 	color: #FFF;
 	margin-right: 12%;
 }
+
+.medicina-estetica button:hover{
+	background-color:#1C8087;
+	transition: all 500ms ease-out;
+}
+
 .medicina-estetica button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -553,6 +564,11 @@ video {
 	margin-right: 12%;
 }
 
+.article2-quienessomos button:hover{
+	background-color:#1C8087;
+	transition: all 500ms ease-out;
+}
+
 .article2-quienessomos button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -561,6 +577,8 @@ video {
 	line-height: normal;
 	text-decoration: none;
 }
+
+
 
 .contenedoresquienessomos {
 	display: flex;
@@ -783,6 +801,11 @@ input[type=submit], input[type=reset]{
 	margin-top: 20px;
 }
 
+input[type=submit]:hover{
+	background-color:#1C8087;
+	transition: all 500ms ease-out;
+}
+
 
 textarea {
 	width: 100%;
@@ -928,6 +951,13 @@ textarea {
 	color: #FFF;
 	margin-right: 12%;
 }
+
+.sucursal button:hover{
+	background-color:#1C8087;
+	transition: all 500ms ease-out;
+}
+
+
 .sucursal button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -936,6 +966,7 @@ textarea {
 	line-height: normal;
 	text-decoration: none;
 }
+
 
 
 .texto-sucursal {
@@ -1223,6 +1254,7 @@ textarea {
 	margin-left: 40px;
 	width: 80%;
 	height: 50%;
+	color: #1C8087;
 }
 
 .corporal:hover .back {
