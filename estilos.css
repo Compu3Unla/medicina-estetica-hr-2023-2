@@ -89,8 +89,6 @@ header button {
 	height: 74px;
 }
 
-/* probarlo en html */
-/* lo pasé a html 08/10*/
 
 .nav-botonera{
 	display: flex;
@@ -123,6 +121,63 @@ header button {
 	transform: scale(1.2);
 }
 
+/* menu hamburguesa */
+.abrir-menu , .cerrar-menu {
+	display: none;
+	font-family: Lato;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+	
+	.abrir-menu  {
+		display: block;
+		margin: 0 80% 0 0;
+		font-size: 3.25rem;
+	}
+	
+	.cerrar-menu {
+		display: block;
+		font-size: 2.20rem;
+		margin: 5px 20px 0 0;
+	}
+	
+	.nav-botonera {
+		opacity: 0;
+		visibility: hidden;
+	}
+	
+	.nav-botonera {
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+		gap: 1rem;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #1C8087;
+		padding: 2rem;
+		height: 150%;
+		box-shadow: 0 0 0 250vmax rgba(0, 0 , 0 , .5);
+	}
+	
+	.nav-botonera.visible {
+		opacity: 1;
+		visibility: visible;
+		
+	}
+	
+	.botonera {
+		flex-direction: column;
+		align-items: end;
+	}
+	
+	.botonera li a {
+		color: #FFFFFF;
+	}
+}
 
 /*** INDEX ***/
 .contenedor-bienvenida{
@@ -143,8 +198,7 @@ header button {
 .bienvenida img {
 	width: 292.228px;
 	height: 179.125px;
-	padding-right: 10%
-	
+	padding-right: 10%;
 }
 
 .bienvenida h1 {
@@ -152,7 +206,6 @@ header button {
 	padding-right: 70px;
 	margin-bottom: -20px;
 	margin-top: -20px;
-
 }
 
 .bienvenida h2 {
@@ -169,6 +222,7 @@ header button {
 	color: #FFF;
 	margin-right: 12%;
 }
+
 .bienvenida button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -177,6 +231,7 @@ header button {
 	line-height: normal;
 	text-decoration: none;
 }
+
 
 
 /*RESEÑAS<*/
@@ -291,16 +346,6 @@ header button {
 
 
 
-/*ESTO TOMA TODOS LOS DIV OJO!!!!!<*/
-/*div {
-	display: flex;
-	flex-direction: column;
-	margin: 80px 40px 40px 40px;
-	gap: 25px;
-}
-<*/
-
-
 h1 {
 	color: #FFF;
 	text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.10);
@@ -328,6 +373,7 @@ h2 {
 }
 
 
+
 /*TRATAMIENTOS*/
 
 .tratamientos-html {
@@ -348,12 +394,11 @@ h2 {
 
 .medicina-estetica {
 	display: flex;
-	width: 1919px;
 	padding: 68px 107px 86px 110px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	gap: 13px;
+	gap: 20px;
 }
 
 .medicina-estetica h5 {
@@ -383,6 +428,8 @@ h2 {
 	text-decoration: none;
 }
 
+
+
 /*QUIENES SOMOS*/
 
 .clase-quienessomos {
@@ -401,7 +448,6 @@ h2 {
 	justify-content: center;
 	padding: 40px 100px;
 }
-
 
 .doctoras-quienessomos h5 {
 	color: #1C8087;
@@ -468,14 +514,18 @@ h2 {
 
 .article-video {
 	display: flex;
-	padding: 70px 55px 0px 93px;
+	padding: 70px 55px 0px 150px;
 	margin: 50px;
 	align-items: center;
 	gap: 10%;
 }
 
+video {
+	border-radius: 25px;
+}
+
 .article-video p{
-	width: 50%;
+	width: 65%;
 }
 
 
@@ -484,8 +534,7 @@ h2 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	padding-left: 70px;
-	gap: 18px;
+	gap: 23px;
 }
 
 .article2-quienessomos h5 {
@@ -500,8 +549,10 @@ h2 {
 	background: #DC8A84;
 	padding: 0% 2%;
 	color: #FFF;
+	margin-top: 25px;
 	margin-right: 12%;
 }
+
 .article2-quienessomos button a{
 	color: #FFF;
 	font-family: Bitter;
@@ -554,10 +605,56 @@ h2 {
 	padding: 70px 70px 0px 70px;
 }
 
-
 .por-que-elegirnos h4 {
 	padding: 13px 0px 13px 0px;
 }
+
+
+@media screen and (max-width: 600px){
+	.doctoras-quienessomos {
+		display: flex;
+		flex-direction: column;
+		gap: 70px;
+		padding-left: 45px;
+	}
+	
+	.doctora2-quienessomos {
+		padding-left: 35px;
+	}
+	
+	.article-video {
+		display: flex;
+		flex-direction: column;
+		padding-left: 25px;
+		padding-top: 5px;
+	}
+	
+	.article-video p {
+		width: 110%;
+	}
+	
+	video {
+		width: 108%;
+		height: 70%;
+	}
+	
+	.article2-quienessomos {
+		margin-top: 50px;
+	}
+	
+	.contenedoresquienessomos {
+		display: flex;
+		flex-direction: column;
+		gap: 71px;
+		padding-left: 7px;
+	}
+	
+	.por-que-elegirnos {
+		padding-top: 20px;
+	}
+}
+
+
 
 /* FORMULARIO DE CONTACTO */
 
@@ -598,7 +695,7 @@ article {
 	flex-direction: column;
 	align-items: flex-start;
 	padding: 0px 10px 10px;;
-	width: 60%;
+	width: 55%;
 }
 
 .enviesuconsulta h4{
@@ -910,8 +1007,6 @@ textarea {
 
 /*------IDS CON LAS IMÁGENES DE LA GALERÍA-------*/
 
-/*HAY QUE AGREGAR ESTAS IMAGENES CON EL TAMAÑO COMÚN, NO CON EL QUE NOS DICE FIGMA*/
-
 #foto-1 {
 	background-image: url("img/sucursal1.jpg");
 }
@@ -954,8 +1049,12 @@ textarea {
 		flex-direction: column;
 	}
 	
+	.sucursal {
+		padding: 68px 20px 0px 56px;
+	}
+	
 	.sucursal p {
-		width: 140%;
+		width: 200%;
 	}
 	
 	.imagenes {
@@ -996,11 +1095,14 @@ textarea {
 		right: 5%
 	}
 	
+	.mapa-seccion {
+		padding-left: 50px;
+	}
 }
 
 
-/* CARDS */
 
+/* CARDS */
 
 #cards {
 	display: flex;
@@ -1022,9 +1124,11 @@ textarea {
 	height: 100px;
 	width: 380px
 }
+
 .facial .front{
 	transition: all 500ms ease-out;
-	} 
+} 
+
 .facial .front h3{
 	position:absolute;
 	padding-left: 20px;
@@ -1036,7 +1140,8 @@ textarea {
 	background: rgba(229, 127, 120, .5);
 	width: 100%;
 	height: 35px;
-	right: -16px;}
+	right: -16px;
+}
 
 .facial .back {
 	border-radius: 20px;
@@ -1050,7 +1155,7 @@ textarea {
 	opacity: 0;
 	visibility: hidden;
 	text-align: justify-all;
-	}
+}
 
 .facial .back p{
 	font-size: 15px;
@@ -1059,14 +1164,13 @@ textarea {
 	margin-left: 45px;
 	width: 80%;
 	height: 50%;
-
 }
 
 .facial:hover .back {
 	opacity: 1;
 	visibility: visible;
+}
 
-	}
 
 /*corporal*/
 
@@ -1079,9 +1183,11 @@ textarea {
 	height: 100px;
 	width: 380px
 }
+
 .corporal .front{
 	transition: all 500ms ease-out;
-	} 
+} 
+
 .corporal .front h3{
 	position:absolute;
 	padding-left: 20px;
@@ -1093,7 +1199,8 @@ textarea {
 	background: rgba(229, 127, 120, .5);
 	width: 100%;
 	height: 35px;
-	right: -16px;}
+	right: -16px;
+}
 
 .corporal .back {
 	border-radius: 20px;
@@ -1107,7 +1214,7 @@ textarea {
 	opacity: 0;
 	visibility: hidden;
 	text-align: justify-all;
-	}
+}
 
 .corporal .back p{
 	font-size: 15px;
@@ -1117,14 +1224,14 @@ textarea {
 	margin-left: 40px;
 	width: 80%;
 	height: 50%;
-
 }
 
 .corporal:hover .back {
 	opacity: 1;
 	visibility: visible;
+}
 
-	}
+
 /*integral*/
 
 .integral{
@@ -1136,9 +1243,11 @@ textarea {
 	height: 100px;
 	width: 380px
 }
+
 .integral .front{
 	transition: all 500ms ease-out;
-	} 
+} 
+
 .integral .front h3{
 	position:absolute;
 	padding-left: 20px;
@@ -1150,7 +1259,8 @@ textarea {
 	background: rgba(229, 127, 120, .5);
 	width: 100%;
 	height: 35px;
-	right: -16px;}
+	right: -16px;
+}
 
 .integral .back {
 	border-radius: 20px;
@@ -1164,32 +1274,31 @@ textarea {
 	opacity: 0;
 	visibility: hidden;
 	text-align: justify-all;
-	}
+}
 
 .integral .back p{
 	font-size: 15px;
 	line-height: 20px;
 	align-items: center;
 	margin-top: 15%;
-	
 	margin-left: 40px;
 	width: 80%;
 	height: 50%;
-
 }
+
 .tensores img {
 	padding: 45px 0px;
 	border-radius: 20px;
 	position: relative;
-	}
+}
 
 	/*opacity: 1;
 	visibility: visible;
 
 	}
 
-/* FOOTER */
 
+/* FOOTER */
 
 nav ul{
 	display:flex;
@@ -1205,11 +1314,11 @@ nav ul li {
 footer {
 	background-color: #1C8087;
 	display: flex;
-	padding: 35px 91px 42px 91px;
+	width: 100%;
+	padding: 20px 91px 42px 91px;
 	align-items: flex-end;
 	justify-content: space-between;
 	gap: 30%;
-	width: 100%;
 	box-sizing: border-box;
 }
 
@@ -1247,21 +1356,6 @@ div footer {
 
 
 
-/*ESTO NO HACE NADA */
-
-a footer{
-	color: #ffffff;
-	display: flex;
-	width: 35px;
-	height: 35px;
-	justify-content: center;
-	align-items: center;
-	flex-shrink: 0;
-}
-
-
-
-
 @media screen and (max-width: 600px){
 	footer {
 		display: flex;
@@ -1291,40 +1385,51 @@ a footer{
 		gap: 5px;
 	}
 }
-/*CARRUSEL TRATAMIENTOS*/
 
+
+
+/*CARRUSEL TRATAMIENTOS*/
 
 #carruseltr {
 	display: flex;
-	overflow: hidden;
-	padding-top: 80px;
-	padding: 80px 0px 10px;
+	padding: 20px 20px 10px 0px;
 	align-items: center;
-	gap:80px;
+	box-sizing: border-box;
+	overflow:auto;
+	scroll-behavior:smooth;
+	gap:20px;
+	position: relative;
 }
-/*hilos tensores*/
+/*cards*/
 .tratamientott{
-	
-	padding: 85px 15px;
+	padding: 85px 15px 10px 110px;
 }
+
+.tratamientott h5{
+	color: #1C8087;
+}
+
+
 .hilos{
 	padding: 45px 0px;
 }
+
 .hilos .front img {
 	border-radius: 20px;
 	position: relative;
 }
+
 .hilos .back {
 	border-radius: 20px;
 	background:#DC8A84;
 	position:absolute;
-	top:50%;
 	height: 350px;
 	width: 350px;
 	transition: all 500ms ease-out;
 	opacity: 0;
 	visibility: hidden;
-	}
+	top:125px;
+}
 
 .hilos .back h3{
 	color: #FFF6F1;
@@ -1362,7 +1467,6 @@ a footer{
 	margin-left: 10%;
 	margin-top: 15px;
 	line-height: 20px;
-	
 }
 
 .back p{
@@ -1373,37 +1477,15 @@ a footer{
 	margin-left: 10%;
 	margin-top: 15px;
 	line-height: 20px;
-	
 }
 .hilos:hover .back {
 	opacity: 1;
 	visibility:visible;
 }
 
-.carrusel-arrow{
-	border-radius: 30px;
-	background-color:#DC8A84;
-	position: absolute;
-	z-index:4;
-	width: 48px;
-	height: 48px;
-	text-align: center;
-	border:0;
-	cursor: pointer;
-}
-.carrusel-arrow:focus{
-	outline: 0;
-}
-.carrusel-arrow svg{
-	width: 12px;
-	height: 100%;
-	color: #FFFFFF;
 
-}
-.carrusel-prev{
-	left:0px;
-	
-}
-.carrusel{
-	right: 0px
-}
+
+
+
+
+
