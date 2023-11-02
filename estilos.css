@@ -379,7 +379,7 @@ h2 {
 .clase-quienessomos {
 	display: flex;
 	flex-direction: column;
-	margin: 50px 70px 0px 50px;;
+	margin: 70px 70px 0px 95px;
 }
 
 .clase-quienessomos h5{
@@ -458,10 +458,10 @@ h2 {
 
 .article-video {
 	display: flex;
-	padding: 70px 55px 0px 150px;
+	padding: 70px 55px 0px 170px;
 	margin: 50px;
 	align-items: center;
-	gap: 10%;
+	gap: 9%;
 }
 
 video {
@@ -493,7 +493,6 @@ video {
 	background: #DC8A84;
 	padding: 0% 2%;
 	color: #FFF;
-	margin-top: 25px;
 	margin-right: 12%;
 }
 
@@ -555,12 +554,56 @@ video {
 
 
 
+@media screen and (max-width: 600px){
+	.doctoras-quienessomos {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 40px 71px;
+		gap: 50px;
+	}
+	
+	.doctora2-quienessomos {
+		padding-left: 38px;
+	}
+	
+	.article-video {
+		display: flex;
+		flex-direction: column;
+		padding: 70px 55px 0px 38px;
+		margin-top: 50px;
+		margin-left: 39px;
+		align-items: center;
+		gap: 9%;
+	}
+	
+	video {
+		border-radius: 25px;
+	}
+	
+	.article-video p {
+		width: 100%;
+	}
+	
+	.por-que-elegirnos {
+		padding-left: 65px;
+	}
+	
+	.contenedoresquienessomos {
+		display: flex;
+		flex-direction: column;
+		padding-left: 7px;
+		gap: 84px;
+	}
+
+
+
 /* FORMULARIO DE CONTACTO */
 
 #main-contacto {
 	display: flex;
 	flex-direction: row;
-	width: 90%;
+	width: 85%;
 	margin: 0px 0 10px 0;
 	gap: 10%;
 }
@@ -568,7 +611,7 @@ video {
 .contenedores-contacto {
 	display: flex;
 	padding-top: 5%;
-	padding-left: 170px;
+	padding-left: 183px;
 	margin-bottom: 70px;
 	flex-direction: column;
 	align-items: flex-start;
@@ -948,6 +991,15 @@ textarea {
 		flex-direction: column;
 	}
 	
+	.sucursal {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 55%;
+		padding: 68px 20px 0px 50px;
+		gap:40px;
+	}
+	
 	.sucursal p {
 		width: 140%;
 	}
@@ -990,6 +1042,14 @@ textarea {
 		right: 5%
 	}
 	
+	.mapa-seccion {
+		display: flex;
+		padding: 68px 20px 0px 40px;
+		align-items: flex-start;
+		flex-direction: column;
+		margin-right: 10px;
+		gap:50px;
+	}
 }
 
 
@@ -1396,10 +1456,3 @@ div footer {
 	opacity: 1;
 	visibility:visible;
 }
-
-
-
-
-
-
-
