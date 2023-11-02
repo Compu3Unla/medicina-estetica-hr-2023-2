@@ -121,7 +121,63 @@ header button {
 	transform: scale(1.2);
 }
 
+/* menu hamburguesa */
+.abrir-menu , .cerrar-menu {
+	display: none;
+	font-family: Lato;
+	font-size: 20px;
+	color: #FFFFFF;
+}
 
+@media screen and (max-width: 600px) {
+	
+	.abrir-menu  {
+		display: block;
+		margin: 0 80% 0 0;
+		font-size: 3.25rem;
+	}
+	
+	.cerrar-menu {
+		display: block;
+		font-size: 2.20rem;
+		margin: 5px 20px 0 0;
+	}
+	
+	.nav-botonera {
+		opacity: 0;
+		visibility: hidden;
+	}
+	
+	.nav-botonera {
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+		gap: 1rem;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #1C8087;
+		padding: 2rem;
+		height: 150%;
+		box-shadow: 0 0 0 250vmax rgba(0, 0 , 0 , .5);
+	}
+	
+	.nav-botonera.visible {
+		opacity: 1;
+		visibility: visible;
+		
+	}
+	
+	.botonera {
+		flex-direction: column;
+		align-items: end;
+	}
+	
+	.botonera li a {
+		color: #FFFFFF;
+	}
+}
 
 /*** INDEX ***/
 .contenedor-bienvenida{
@@ -570,10 +626,16 @@ video {
 		display: flex;
 		flex-direction: column;
 		padding-left: 25px;
+		padding-top: 5px;
 	}
 	
 	.article-video p {
 		width: 110%;
+	}
+	
+	video {
+		width: 108%;
+		height: 70%;
 	}
 	
 	.article2-quienessomos {
