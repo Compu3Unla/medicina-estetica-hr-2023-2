@@ -8,7 +8,9 @@
 	padding: 0px;
 }
 
-
+body{
+	color: #FFF6F1;
+}
 /*medicina estetica */
 h1{
 	color: white;
@@ -339,7 +341,6 @@ h2 {
 	justify-content: flex-end;
 	align-items: flex-start;
 	gap: 17px;
-	flex-shrink: 0;
 }
 
 .tratamientos-html h5{
