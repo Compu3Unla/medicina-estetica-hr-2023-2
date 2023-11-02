@@ -1206,27 +1206,12 @@ nav ul li {
 footer {
 	background-color: #1C8087;
 	display: flex;
-<<<<<<< HEAD
 	width: 100%;
 	padding: 20px 91px 42px 91px;
-=======
-	padding: 35px 91px 42px 91px;
->>>>>>> origin/main
 	align-items: flex-end;
 	justify-content: space-between;
 	gap: 30%;
-<<<<<<< HEAD
-	bottom: 0px;
-<<<<<<< HEAD
-	
-=======
-	width: 100%;
-	box-sizing: content-box;
->>>>>>> origin/main
-=======
-	width: 100%;
 	box-sizing: border-box;
->>>>>>> origin/main
 }
 
 footer p {
@@ -1299,14 +1284,7 @@ div footer {
 
 #carruseltr {
 	display: flex;
-<<<<<<< HEAD
-	width: 20px;
-	height: 20px;
-	justify-content: center;
-=======
-	padding-top: 0px;
-	padding: 20px 0px 10px;
->>>>>>> origin/main
+	padding: 20px 20px 10px 0px;
 	align-items: center;
 	box-sizing: border-box;
 	overflow:auto;
