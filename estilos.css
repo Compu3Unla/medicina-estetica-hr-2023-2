@@ -1569,11 +1569,6 @@ div footer {
 	height: 40px;
 }
 
-.contactofooter img:hover{
-	background-color:#DC8A84;
-	transition: all 500ms ease-out;
-}
-
 
 
 @media screen and (max-width: 600px){
