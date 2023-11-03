@@ -111,25 +111,14 @@ p {
 header {
 	display:flex;
 	flex-direction: row;
-	justify-content: center;
-	width: 100%;
 	height: 120px;
 	gap: 45%;
 	background-color:#1C8087;
 	box-sizing: content-box;
 	padding-left: 116px;
 	padding-right: 116px;
-
-	display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 120px;
-    background-color: #1C8087;
-    box-sizing: border-box;
-    padding: 20px;
+	justify-content: space-between;
 }
-
 
 header button {
 	background-color:#1C8087;
