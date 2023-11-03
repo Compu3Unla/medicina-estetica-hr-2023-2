@@ -409,6 +409,8 @@ header button {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	background-image: url("img/background-index-doctoras.jpg");
+	background-size: auto;
 }
 .nosotras .doctora1-quienessomos ul{
 	color: #1C8087;
@@ -439,10 +441,11 @@ header button {
 	justify-content:space-evenly;
 	padding-top: 80px;
 	padding-bottom: 100px;
-	background:rgba(229,127,120,1.00);
+	background-image: url("img/background-index-cards.jpg");
+	background-size: auto;
 	align-items: center;
-	
 }
+
 /*facial*/
 
 .facial{
@@ -777,7 +780,17 @@ header button {
 
 }
 
+#tratamientos {
+	background-image: url("img/background-tratamientos.jpg");
+	background-size: auto;
+}
+
 /*QUIENES SOMOS*/
+
+#quienessomos {
+	background-image: url("img/background-quienessomos.jpg");
+	background-size: auto;
+}
 
 .clase-quienessomos {
 	display: flex;
