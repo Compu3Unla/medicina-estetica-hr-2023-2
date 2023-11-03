@@ -11,16 +11,25 @@
 body{
 	color: #FFF6F1;
 }
-/*medicina estetica */
 h1{
-	color: white;
 	font-size: 48px;
 	font-family: Lato;
 	font-weight: 700;
 	word-wrap: break-word;
+	color: #FFF;
+	text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.10);
+	font-style: normal;
+	line-height: normal;
 }
 
-/* tratamientos */
+h2 {
+	flex-shrink: 0;
+	filter: drop-shadow(2px 8px 4px rgba(0, 0, 0, 0.10));
+	font-family: Lato;
+	color: #FFF;
+}
+
+
 h3{
 	color: white;
 	font-size: 26px;
@@ -29,15 +38,12 @@ h3{
 	word-wrap: break-word;
 }
 
-/* nosotras */
 h4{
 	color: #1C8087;
 	font-size: 33px;
 	font-family: Bitter;
 	font-weight: 700;
 }
-
-/* crecimiento personal y experiencia */
 
 h5{
 	color: #1C8087;
@@ -46,26 +52,44 @@ h5{
 	font-weight: 400;
 }
 
-/* adriana serra*/
-
 h6{
 	color: white;
 	font-size: 20px;
 	font-family: Bitter;
 	font-weight: 700;
 }
-
-
 p {
 	color: #1C8087;
 	font-family: Lato;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 29px; /* 36.7px */
+	line-height: 29px;
 }
 
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+	height: 15px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #DC8A84;
+	width: 200px;
+	border-radius: 10px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #DC8A84
+}
 
 /*** HEADER ****/
 
@@ -75,7 +99,7 @@ header {
 	justify-content: center;
 	width: 100%;
 	height: 120px;
-	gap: 780px;
+	gap: 45%;
 	background-color:#1C8087;
 	box-sizing: content-box;
 }
@@ -182,6 +206,7 @@ header button {
 }
 
 /*** INDEX ***/
+
 .contenedor-bienvenida{
 	background: url("img/portada-index.jpg"), lightgray -43.638px -421.334px / 104.044% 165.774% no-repeat;
 	background-size: cover;
@@ -239,193 +264,8 @@ header button {
 	text-decoration: none;
 }
 
-/* CARDS */
-
-#cards {
-	display: flex;
-	justify-content:space-evenly;
-	padding-top: 80px;
-	padding-bottom: 100px;
-	background:rgba(229,127,120,1.00);
-	align-items: center;
-	
-}
-/*facial*/
-
-.facial{
-	background-image:url("img/facial.jpg");
-	background-size: cover;
-	padding: 45px 0px;
-	border-radius: 20px;
-	position: relative;
-	height: 100px;
-	width: 380px
-}
-
-.facial .front{
-	transition: all 500ms ease-out;
-} 
-
-.facial .front h3{
-	position:absolute;
-	padding-left: 20px;
-	padding-top: 15px;
-	bottom:0;
-	color: white;
-	font-size: 20px;
-	font-family: Bitter;
-	background: rgba(229, 127, 120, .5);
-	width: 100%;
-	height: 35px;
-	right: -16px;
-}
-
-.facial .back {
-	border-radius: 20px;
-	right: 0;
-	position:absolute;
-	top:0;
-	width: 100%;
-	height: 100%;
-	background:rgba(255,246,241,1.00);
-	transition: all 500ms ease-out;
-	opacity: 0;
-	visibility: hidden;
-	text-align: justify-all;
-}
-
-.facial .back p{
-	color: #1C8087;
-	font-size: 15px;
-	line-height: 20px;
-	margin-top: 15%;
-	margin-left: 45px;
-	width: 80%;
-	height: 50%;
-}
-
-.facial:hover .back {
-	opacity: 1;
-	visibility: visible;
-}
-
-
-/*corporal*/
-
-.corporal{
-	background-image:url("img/corporal.jpg");
-	background-size: cover;
-	padding: 45px 0px;
-	border-radius: 20px;
-	position: relative;
-	height: 100px;
-	width: 380px
-}
-
-.corporal .front{
-	transition: all 500ms ease-out;
-} 
-
-.corporal .front h3{
-	position:absolute;
-	padding-left: 20px;
-	padding-top: 15px;
-	bottom:0;
-	color: white;
-	font-size: 20px;
-	font-family: Bitter;
-	background: rgba(229, 127, 120, .5);
-	width: 100%;
-	height: 35px;
-	right: -16px;
-}
-
-.corporal .back {
-	border-radius: 20px;
-	right: 0;
-	position:absolute;
-	top:0;
-	width: 100%;
-	height: 100%;
-	background:rgba(255,246,241,1.00);
-	transition: all 500ms ease-out;
-	opacity: 0;
-	visibility: hidden;
-	text-align: justify-all;
-}
-
-.corporal .back p{
-	font-size: 15px;
-	line-height: 20px;
-	align-items: center;
-	margin-top: 15%;
-	margin-left: 40px;
-	width: 80%;
-	height: 50%;
-}
-
-.corporal:hover .back {
-	opacity: 1;
-	visibility: visible;
-}
-
-
-/*integral*/
-
-.integral{
-	background-image: url("img/integral.jpg");
-	background-size: cover;
-	padding: 45px 0px;
-	border-radius: 20px;
-	position: relative;
-	height: 100px;
-	width: 380px
-}
-
-.integral .front{
-	transition: all 500ms ease-out;
-} 
-
-.integral .front h3{
-	position:absolute;
-	padding-left: 20px;
-	padding-top: 15px;
-	bottom:0;
-	color: white;
-	font-size: 20px;
-	font-family: Bitter;
-	background: rgba(229, 127, 120, .5);
-	width: 100%;
-	height: 35px;
-	right: -16px;
-}
-
-.integral .back {
-	border-radius: 20px;
-	right: 0;
-	position:absolute;
-	top:0;
-	width: 100%;
-	height: 100%;
-	background:rgba(255,246,241,1.00);
-	transition: all 500ms ease-out;
-	opacity: 0;
-	visibility: hidden;
-	text-align: justify-all;
-}
-
-.integral .back p{
-	font-size: 15px;
-	line-height: 20px;
-	align-items: center;
-	margin-top: 15%;
-	margin-left: 40px;
-	width: 80%;
-	height: 50%;
-}
-
-
 /*RESEÑAS<*/
+
 .contenedor-resena{
 	width: 100%;
 	display: flex;
@@ -435,11 +275,9 @@ header button {
 	box-sizing: border-box;
 }
 
-
 .contenedor-resena h3{
 	padding: 10px;
 }
-
 
 .slider-resena {
 	width: 100%;
@@ -455,31 +293,6 @@ header button {
 	gap: 20px;
 }
 
-/* width */
-::-webkit-scrollbar {
-	width: 15px;
-	height: 15px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-	border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #DC8A84;
-	width: 200px;
-	border-radius: 10px
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #DC8A84
-}
-
-
 .resena {
 	min-width: 322px;
 	height: 165px;
@@ -489,7 +302,6 @@ header button {
 	gap: 19px;
 	padding: 25px 0px;
 }
-
 
 .resena img {
 	height: 68px;
@@ -535,35 +347,14 @@ header button {
 	border-radius: 50%;
 }
 
-
-
-h1 {
-	color: #FFF;
-	text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.10);
-	font-family: Lato;
-	font-size: 48px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-}
-
-h2 {
-	flex-shrink: 0;
-	filter: drop-shadow(2px 8px 4px rgba(0, 0, 0, 0.10));
-	font-family: Lato;
-	color: #FFF;
-}
-
 /* doctoras */
 
 .nosotras {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 830px
+	height: ;
 }
-
-
 
 /*TRATAMIENTOS*/
 
@@ -622,9 +413,187 @@ h2 {
 	font-weight: 500;
 	line-height: normal;
 	text-decoration: none;
+
 }
 
+/* CARDS */
 
+#cards {
+	display: flex;
+	justify-content:space-evenly;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	background:rgba(229,127,120,1.00);
+	align-items: center;
+	
+}
+/*facial*/
+
+.facial{
+	background-image:url("img/facial.jpg");
+	background-size: cover;
+	padding: 45px 0px;
+	border-radius: 20px;
+	position: relative;
+	height: 100px;
+	width: 25%;
+}
+
+.facial .front{
+	transition: all 500ms ease-out;
+} 
+
+.facial .front h3{
+	position:absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+	bottom:0;
+	color: white;
+	font-size: 20px;
+	font-family: Bitter;
+	background: rgba(229, 127, 120, .5);
+	width: 100%;
+	height: 35px;
+	right: -16px;
+}
+
+.facial .back {
+	border-radius: 20px;
+	right: 0;
+	position:absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background:rgba(255,246,241,1.00);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: justify-all;
+}
+
+.facial .back p{
+	color:#1C8087;
+	font-size: 15px;
+	line-height: 20px;
+	margin-top: 15%;
+	margin-left: 45px;
+	width: 80%;
+	height: 50%;
+}
+
+/*corporal*/
+
+.corporal{
+	background-image:url("img/corporal.jpg");
+	background-size: cover;
+	padding: 45px 0px;
+	border-radius: 20px;
+	position: relative;
+	height: 100px;
+	width: 25%;
+}
+
+.corporal .front{
+	transition: all 500ms ease-out;
+} 
+
+.corporal .front h3{
+	position:absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+	bottom:0;
+	color: white;
+	font-size: 20px;
+	font-family: Bitter;
+	background: rgba(229, 127, 120, .5);
+	width: 100%;
+	height: 35px;
+	right: -16px;
+}
+
+.corporal .back {
+	border-radius: 20px;
+	right: 0;
+	position:absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background:rgba(255,246,241,1.00);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: justify-all;
+}
+.corporal .back p{
+	color: #1C8087;
+	font-size: 15px;
+	line-height: 20px;
+	align-items: center;
+	margin-top: 15%;
+	margin-left: 40px;
+	width: 80%;
+	height: 50%;
+}
+
+/*integral*/
+
+.integral{
+	background-image: url("img/integral.jpg");
+	background-size: cover;
+	padding: 45px 0px;
+	border-radius: 20px;
+	position: relative;
+	height: 100px;
+	width: 25%;
+}
+
+.integral .front{
+	transition: all 500ms ease-out;
+} 
+
+.integral .front h3{
+	position:absolute;
+	padding-left: 20px;
+	padding-top: 15px;
+	bottom:0;
+	color: white;
+	font-size: 20px;
+	font-family: Bitter;
+	background: rgba(229, 127, 120, .5);
+	width: 100%;
+	height: 35px;
+	right: -16px;
+}
+
+.integral .back {
+	border-radius: 20px;
+	right: 0;
+	position:absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background:rgba(255,246,241,1.00);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: justify-all;
+}
+
+.integral .back p{
+	color:#1C8087;
+	font-size: 15px;
+	line-height: 20px;
+	align-items: center;
+	margin-top: 15%;
+	margin-left: 40px;
+	width: 80%;
+	height: 50%;
+}
+/*transicion cards*/
+.facial, .corporal, .integral:hover .back {
+	opacity: 1;
+	visibility: visible;
+}
 
 /*QUIENES SOMOS*/
 
@@ -883,15 +852,6 @@ video {
 	padding-top: 20px;
 	gap: 80%;
 }
-
-/*
-article {
-	display: flex;
-	flex-direction: row;
-	gap: 8px;
-	padding: 0px 110px;
-}
-<*/
 
 .enviesuconsulta {
 	display: flex;
