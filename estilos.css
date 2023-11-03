@@ -233,6 +233,7 @@ header button {
     border-radius: 75px;
     border: none;
     z-index: 1000;
+	transition: opacity 10s;
 }
 
 .modal-texto h1 {
@@ -253,12 +254,11 @@ header button {
  	position: absolute;
     top: 82px;
     right: 116px;
-    font-size: 3rem;
+	font-size: 3rem;
     color: #ffffff;
     background-color: transparent;
     border: none;
 }
-
 
 
 /*** INDEX ***/
