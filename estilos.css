@@ -111,7 +111,6 @@ p {
 header {
 	display:flex;
 	flex-direction: row;
-	width: 100%;
 	height: 120px;
 	gap: 45%;
 	background-color:#1C8087;
@@ -119,7 +118,7 @@ header {
 	padding-left: 116px;
 	padding-right: 116px;
 	justify-content: space-between;
-	padding: 20px;
+
 }
 
 
