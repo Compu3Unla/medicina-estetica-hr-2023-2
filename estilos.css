@@ -8,9 +8,24 @@
 	padding: 0px;
 }
 
+@keyframes transitionIn{
+	from{
+		opacity:0;
+		transform: rotateY(-10deg);
+	}
+	
+	to{
+		opacity:1;
+		transform: rotateY(0)
+	}
+}
+
+
 body{
+	animation: transitionIn 1s;
 	color: #FFF6F1;
 }
+
 h1{
 	font-size: 48px;
 	font-family: Lato;
