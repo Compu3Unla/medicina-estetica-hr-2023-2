@@ -658,9 +658,8 @@ header button {
 	margin-top: 5px;
 	margin-bottom: 25px;
 }
-.back ul li{
-	list-style: none;
-}
+
+
 .hilos ul li h5{
 	color: #FFF6F1;
 	font-size: 15px;
@@ -693,7 +692,8 @@ header button {
 	opacity: 1;
 	visibility:visible;
 }
-
+	
+/*Medicina estetica*/
 .medicina-estetica {
 	display: flex;
 	padding: 68px 107px 86px 110px;
