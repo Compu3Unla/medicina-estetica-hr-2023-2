@@ -109,6 +109,17 @@ p {
 /*** HEADER ****/
 
 header {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	height: 120px;
+	gap: 45%;
+	background-color:#1C8087;
+	box-sizing: content-box;
+	padding-left: 116px;
+	padding-right: 116px;
+
 	display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -244,7 +255,7 @@ header button {
 
 .bienvenida h1 {
 	font-size: 48px;
-	padding-right: 70px;
+	padding-right: 98px;
 	margin-bottom: -20px;
 	margin-top: -20px;
 }
@@ -375,9 +386,9 @@ header button {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 171%;
-	width: 424px;
+	width: 37%px;
 	height: 50%;
-	flex-shrink: 0;
+	margin-left: 25%;
 	}
 .nosotras .doctora2-quienessomos ul{
 	color: #1C8087;
@@ -595,6 +606,102 @@ header button {
 	color: #1C8087;
 }
 
+/*carrusel*/
+
+#carruseltr {
+	display: flex;
+	padding: 20px 20px 10px 0px;
+	align-items: center;
+	box-sizing: border-box;
+	overflow:auto;
+	scroll-behavior:smooth;
+	gap:20px;
+	position: relative;
+	margin-left: 110px;
+}
+/*cards*/
+.tratamientott{
+	padding: 85px 15px 10px 110px;
+}
+
+.tratamientott h5{
+	color: #1C8087;
+}
+
+
+.hilos{
+	padding: 45px 0px;
+}
+
+.hilos .front img {
+	border-radius: 20px;
+	position: relative;
+}
+
+.hilos .back {
+	border-radius: 20px;
+	background:#DC8A84;
+	position:absolute;
+	height: 350px;
+	width: 350px;
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	top:65px;
+}
+
+.hilos .back h3{
+	color: #FFF6F1;
+	font-size: 20px;
+	justify-content: center;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+
+.hilos .back h4{
+	color: #FFF6F1;
+	font-size: 14px;
+	justify-content: center;
+	margin-left: 10%;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+.back ul li{
+	list-style: none;
+}
+.hilos ul li h5{
+	color: #FFF6F1;
+	font-size: 15px;
+	justify-content: center;
+	margin-left: 25%;
+	margin-top: 15px;
+	
+}
+
+.back ul li p{
+	width: 60%;
+	color: #FFF6F1;
+	font-size: 15px;
+	justify-content: center;
+	margin-left: 10%;
+	margin-top: 15px;
+	line-height: 20px;
+}
+
+.back p{
+	width: 60%;
+	color: #FFF6F1;
+	font-size: 15px;
+	justify-content: center;
+	margin-left: 10%;
+	margin-top: 15px;
+	line-height: 20px;
+}
+.hilos:hover .back {
+	opacity: 1;
+	visibility:visible;
+}
+
 .medicina-estetica {
 	display: flex;
 	padding: 68px 107px 86px 110px;
@@ -672,12 +779,12 @@ header button {
 
 .doctora1-quienessomos {
 	display: flex;
-	width: 70%;
+	width: 37%;
 	height: 30%;
 	flex-direction: column;
 	justify-content: flex-end;
 	padding-top: 20px;
-	margin-left: 15%;
+	margin-left: 25%;
 	gap: 23px;
 }
 
@@ -758,8 +865,9 @@ video {
 	background: #DC8A84;
 	padding: 0% 2%;
 	color: #FFF;
-	margin-top: 25px;
+	margin-top: 20px;
 	margin-right: 12%;
+ 
 }
 
 .article2-quienessomos button:hover{
@@ -835,7 +943,7 @@ video {
 	}
 	
 	.doctora2-quienessomos {
-		padding-left: 35px;
+		padding-left: 70px;
 	}
 	
 	.article-video {
@@ -1353,6 +1461,7 @@ textarea {
 }
 
 
+
 /* FOOTER */
 
 nav ul{
@@ -1370,7 +1479,7 @@ footer {
 	background-color: #1C8087;
 	display: flex;
 	width: 100%;
-	padding: 20px 91px 42px 91px;
+	padding: 30px 91px 42px 91px;
 	align-items: flex-end;
 	justify-content: space-between;
 	gap: 30%;
@@ -1440,108 +1549,3 @@ div footer {
 		gap: 5px;
 	}
 }
-
-
-
-/*CARRUSEL TRATAMIENTOS*/
-
-#carruseltr {
-	display: flex;
-	padding: 20px 20px 10px 0px;
-	align-items: center;
-	box-sizing: border-box;
-	overflow:auto;
-	scroll-behavior:smooth;
-	gap:20px;
-	position: relative;
-	margin-left: 110px;
-}
-/*cards*/
-.tratamientott{
-	padding: 85px 15px 10px 110px;
-}
-
-.tratamientott h5{
-	color: #1C8087;
-}
-
-
-.hilos{
-	padding: 45px 0px;
-}
-
-.hilos .front img {
-	border-radius: 20px;
-	position: relative;
-}
-
-.hilos .back {
-	border-radius: 20px;
-	background:#DC8A84;
-	position:absolute;
-	height: 350px;
-	width: 350px;
-	transition: all 500ms ease-out;
-	opacity: 0;
-	visibility: hidden;
-	top:65px;
-}
-
-.hilos .back h3{
-	color: #FFF6F1;
-	font-size: 20px;
-	justify-content: center;
-	margin-left: 10%;
-	margin-top: 30px;
-}
-
-.hilos .back h4{
-	color: #FFF6F1;
-	font-size: 14px;
-	justify-content: center;
-	margin-left: 10%;
-	margin-top: 5px;
-	margin-bottom: 25px;
-}
-.back ul li{
-	list-style: none;
-}
-.hilos ul li h5{
-	color: #FFF6F1;
-	font-size: 15px;
-	justify-content: center;
-	margin-left: 25%;
-	margin-top: 15px;
-	
-}
-
-.back ul li p{
-	width: 60%;
-	color: #FFF6F1;
-	font-size: 15px;
-	justify-content: center;
-	margin-left: 10%;
-	margin-top: 15px;
-	line-height: 20px;
-}
-
-.back p{
-	width: 60%;
-	color: #FFF6F1;
-	font-size: 15px;
-	justify-content: center;
-	margin-left: 10%;
-	margin-top: 15px;
-	line-height: 20px;
-}
-.hilos:hover .back {
-	opacity: 1;
-	visibility:visible;
-}
-
-
-
-
-
-
-
