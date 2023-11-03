@@ -550,7 +550,15 @@ header button {
 	height: 50%;
 }
 /*transicion cards*/
-.facial, .corporal, .integral:hover .back {
+.facial:hover .back {
+	opacity: 1;
+	visibility: visible;
+}
+.corporal:hover .back {
+	opacity: 1;
+	visibility: visible;}
+
+.integral:hover .back {
 	opacity: 1;
 	visibility: visible;
 }
@@ -1125,9 +1133,6 @@ textarea {
 		font-size: 24px;
 	}
 }
-
-
-
 
 /*SUCURSAL*/
 
