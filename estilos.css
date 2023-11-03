@@ -115,21 +115,14 @@ body {
 header {
 	display:flex;
 	flex-direction: row;
-<<<<<<< HEAD
-	width: 100%;
-=======
->>>>>>> origin/main
+	max-width: 1920px;
 	height: 120px;
 	gap: 45%;
 	background-color:#1C8087;
-	box-sizing: content-box;
+	box-sizing: border-box;
 	padding-left: 116px;
-	padding-right: 116px;
-<<<<<<< HEAD
-    justify-content: space-between;
-=======
+	padding-right: 40px;
 	justify-content: space-between;
->>>>>>> origin/main
 }
 
 header button {
@@ -218,7 +211,7 @@ header button {
 	.nav-botonera.visible {
 		opacity: 1;
 		visibility: visible;
-		
+		z-index: 2;
 	}
 	
 	.botonera {
@@ -445,6 +438,7 @@ header button {
 	height: 50%;
 	flex-shrink: 0;
 	}
+
 /* CARDS */
 
 #cards {
@@ -796,6 +790,21 @@ header button {
 	background-size: auto;
 }
 
+@media screen and (max-width: 600px){
+	.medicina-estetica {
+		padding: 156px 107px 170px 110px;
+	}
+	
+	.medicina-estetica p{
+		width: 90%;
+	}
+	
+	.medicina-estetica button {
+		width: 60%;
+	}
+}
+
+
 /*QUIENES SOMOS*/
 
 #quienessomos {
@@ -839,7 +848,7 @@ header button {
 	flex-direction: column;
 	justify-content: flex-end;
 	padding-top: 20px;
-	margin-left: 25%;
+	margin-left: 20%;
 	gap: 23px;
 }
 
@@ -885,7 +894,7 @@ header button {
 .article-video {
 	display: flex;
 	padding: 70px 55px 0px 110px;
-	margin: 50px;
+	margin: 85px;
 	align-items: center;
 	gap: 5%;
 }
@@ -977,7 +986,6 @@ video {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 90%;
 	height: 70%;
 	gap: 40px;
 	padding: 70px 70px 0px 110px;
@@ -995,6 +1003,7 @@ video {
 		gap: 70px;
 		padding-left: 45px;
 	}
+	
 	
 	.doctora2-quienessomos {
 		padding-left: 70px;
