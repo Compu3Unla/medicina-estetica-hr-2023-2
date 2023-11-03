@@ -107,7 +107,7 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #DC8A84
+	background: #DC8A84
 }
 
 /*** HEADER ****/
