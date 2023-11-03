@@ -82,6 +82,10 @@ p {
 	line-height: 29px;
 }
 
+body {
+	background-color: #FFF6F1;
+}
+
 /* width */
 ::-webkit-scrollbar {
 	width: 15px;
