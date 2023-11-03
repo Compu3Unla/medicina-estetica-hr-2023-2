@@ -111,13 +111,21 @@ p {
 header {
 	display:flex;
 	flex-direction: row;
+<<<<<<< HEAD
+	width: 100%;
+=======
+>>>>>>> origin/main
 	height: 120px;
 	gap: 45%;
 	background-color:#1C8087;
 	box-sizing: content-box;
 	padding-left: 116px;
 	padding-right: 116px;
+<<<<<<< HEAD
+    justify-content: space-between;
+=======
 	justify-content: space-between;
+>>>>>>> origin/main
 }
 
 header button {
@@ -218,6 +226,48 @@ header button {
 		color: #FFFFFF;
 	}
 }
+
+
+/*** MODAL ***/
+
+#miModal {
+ 	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #DC8A84;
+    opacity: 0.7;
+    padding: 112px 139px 121px 185px;
+    border-radius: 75px;
+    border: none;
+    z-index: 1000;
+}
+
+.modal-texto h1 {
+	font-size: 102px;
+}
+
+.modal-texto h4 {
+	color:#FFFFFF;
+	padding-bottom: 34px;
+}
+
+.modal-texto p {
+	color:#FFFFFF;
+	width: 75%;
+}
+
+#cerrarModal {
+ 	position: absolute;
+    top: 82px;
+    right: 116px;
+    font-size: 3rem;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+}
+
+
 
 /*** INDEX ***/
 
